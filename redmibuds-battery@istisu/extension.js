@@ -4,7 +4,7 @@ import Gio from 'gi://Gio';
 import GLib from 'gi://GLib';
 import Clutter from 'gi://Clutter';
 
-import {Extension, gettext as _} from 'resource:///org/gnome/shell/extensions/extension.js';
+import { Extension, gettext as _ } from 'resource:///org/gnome/shell/extensions/extension.js';
 import * as Main from 'resource:///org/gnome/shell/ui/main.js';
 import * as PanelMenu from 'resource:///org/gnome/shell/ui/panelMenu.js';
 import * as PopupMenu from 'resource:///org/gnome/shell/ui/popupMenu.js';
@@ -23,7 +23,7 @@ const DBUS_XML = `
 </node>`;
 
 const DBUS_SERVICE = 'org.redmibuds.Battery';
-const DBUS_PATH    = '/org/redmibuds/Battery';
+const DBUS_PATH = '/org/redmibuds/Battery';
 
 const RedmiBudsIndicator = GObject.registerClass(
 class RedmiBudsIndicator extends PanelMenu.Button {
@@ -32,15 +32,16 @@ class RedmiBudsIndicator extends PanelMenu.Button {
         super._init(0.0, 'Redmi Buds Battery');
 
         this._extension = extension;
-        this._proxy     = null;
-        this._signalId  = null;
-        this._retryId   = null;
+        this._proxy = null;
+        this._signalId = null;
+        this._retryId = null;
+        this._nameWatchId = null;
 
         // ── Panel layout ───────────────────────────────────────────────
         const box = new St.BoxLayout({ vertical: false });
         this.add_child(box);
 
-        this._leftLabel  = new St.Label({
+        this._leftLabel = new St.Label({
             text: 'L:--',
             y_align: Clutter.ActorAlign.CENTER,
         });
@@ -48,7 +49,7 @@ class RedmiBudsIndicator extends PanelMenu.Button {
             text: 'R:--',
             y_align: Clutter.ActorAlign.CENTER,
         });
-        this._caseLabel  = new St.Label({
+        this._caseLabel = new St.Label({
             text: 'C:--',
             y_align: Clutter.ActorAlign.CENTER,
         });
@@ -70,13 +71,13 @@ class RedmiBudsIndicator extends PanelMenu.Button {
 
         // ── Dropdown menu ──────────────────────────────────────────────
         this.menu.addMenuItem(
-            new PopupMenu.PopupMenuItem('Redmi Buds 6 Active', {reactive: false})
+            new PopupMenu.PopupMenuItem('Redmi Buds 6 Active', { reactive: false })
         );
         this.menu.addMenuItem(new PopupMenu.PopupSeparatorMenuItem());
 
-        this._menuLeft  = new PopupMenu.PopupMenuItem('Left:  --', {reactive: false});
-        this._menuRight = new PopupMenu.PopupMenuItem('Right: --', {reactive: false});
-        this._menuCase  = new PopupMenu.PopupMenuItem('Case:  --', {reactive: false});
+        this._menuLeft = new PopupMenu.PopupMenuItem('Left:  --', { reactive: false });
+        this._menuRight = new PopupMenu.PopupMenuItem('Right: --', { reactive: false });
+        this._menuCase = new PopupMenu.PopupMenuItem('Case:  --', { reactive: false });
 
         this.menu.addMenuItem(this._menuLeft);
         this.menu.addMenuItem(this._menuRight);
@@ -145,13 +146,14 @@ class RedmiBudsIndicator extends PanelMenu.Button {
         this._menuLeft.label.set_text('Left:   --');
         this._menuRight.label.set_text('Right:  --');
         this._menuCase.label.set_text('Case:   --');
-    },
+    }
 
     _scheduleRetry() {
-        if (this._retryId)
-            return;
+        if (this._retryId) return;
         this._retryId = GLib.timeout_add_seconds(
-            GLib.PRIORITY_DEFAULT, 10, () => {
+            GLib.PRIORITY_DEFAULT,
+            10,
+            () => {
                 this._retryId = null;
                 this._connectDbus();
                 return GLib.SOURCE_REMOVE;
@@ -160,8 +162,7 @@ class RedmiBudsIndicator extends PanelMenu.Button {
     }
 
     _refresh() {
-            if (!this._proxy)
-            return;
+        if (!this._proxy) return;
 
         // Force the proxy to re-read all properties from D-Bus
         // rather than serving stale cached values
@@ -181,12 +182,12 @@ class RedmiBudsIndicator extends PanelMenu.Button {
                     // reply is ((a{sv}),) — unwrap the outer tuple
                     const props = reply.deepUnpack()[0];
 
-                    const left  = props['Left']?.deepUnpack()  ?? -1;
+                    const left = props['Left']?.deepUnpack() ?? -1;
                     const right = props['Right']?.deepUnpack() ?? -1;
-                    const cas   = props['Case']?.deepUnpack()  ?? -1;
-                    const lc    = props['LeftCharging']?.deepUnpack()  ?? false;
-                    const rc    = props['RightCharging']?.deepUnpack() ?? false;
-                    const cc    = props['CaseCharging']?.deepUnpack()  ?? false;
+                    const cas = props['Case']?.deepUnpack() ?? -1;
+                    const lc = props['LeftCharging']?.deepUnpack() ?? false;
+                    const rc = props['RightCharging']?.deepUnpack() ?? false;
+                    const cc = props['CaseCharging']?.deepUnpack() ?? false;
 
                     this._leftLabel.set_text(this._short('L', left, lc));
                     this._rightLabel.set_text(this._short('R', right, rc));
@@ -206,7 +207,7 @@ class RedmiBudsIndicator extends PanelMenu.Button {
 
     _short(prefix, level, charging) {
         if (level === -1) return `${prefix}:--`;
-        return `${prefix}:${level}%${charging ? '⚡' : ''}`;
+        return `${prefix}:${level}%${charging ? ' (charging)' : ''}`;
     }
 
     _long(level, charging) {
