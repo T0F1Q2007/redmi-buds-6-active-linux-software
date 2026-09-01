@@ -1,0 +1,3355 @@
+				Sent Information Request (Extended Features Mask)
+				Rcvd Information Request (Extended Features Mask)
+				Rcvd Information Response (Extended Features Mask, Success)
+				Sent Information Response (Extended Features Mask, Success)
+				Sent Information Request (Fixed Channels Supported)
+				Rcvd Information Request (Fixed Channels Supported)
+				Sent Information Response (Fixed Channels Supported, Success)
+				Rcvd Information Response (Fixed Channels Supported, Success)
+				Sent Connection Request (SDP, SCID: 0x0048)
+				Rcvd Connection Response - Success (SCID: 0x0048, DCID: 0x2004)
+				Sent Configure Request (DCID: 0x2004)
+				Rcvd Configure Response - Success (SCID: 0x0048)
+				Rcvd Configure Request (DCID: 0x0048)
+				Sent Configure Response - Success (SCID: 0x2004)
+				Sent Service Search Attribute Request : Hands-Free: [Service Class ID List 0x0001] [Protocol Descriptor List 0x0004] [Bluetooth Profile Descriptor List 0x0009] [(HFP HS) Supported Features 0x0311] 
+				Sent Connection Request (HID-Control, SCID: 0x0049)
+				Rcvd Service Search Attribute Response 
+				Sent Disconnection Request (SCID: 0x0048, DCID: 0x2004, PSM: 0x0001, Service: SDP)
+				Rcvd Connection Response - Success (SCID: 0x0049, DCID: 0x5140)
+				Sent Configure Request (DCID: 0x5140)
+				Rcvd Disconnection Response (SCID: 0x0048, DCID: 0x2004, PSM: 0x0001, Service: SDP)
+				Rcvd Configure Response - Success (SCID: 0x0049)
+				Rcvd Configure Request (DCID: 0x0049)
+				Sent Connection Request (RFCOMM, SCID: 0x004a)
+				Sent Configure Response - Success (SCID: 0x5140)
+				Sent Connection Request (HID-Interrupt, SCID: 0x004b)
+				Rcvd Connection Response - Success (SCID: 0x004a, DCID: 0x3040)
+				Sent Configure Request (DCID: 0x3040)
+				Rcvd Connection Response - Success (SCID: 0x004b, DCID: 0x5240)
+				Sent Configure Request (DCID: 0x5240)
+				Rcvd Configure Response - Success (SCID: 0x004a)
+				Rcvd Configure Request (DCID: 0x004a)
+				Sent Configure Response - Success (SCID: 0x3040)
+				Sent SABM Channel=0 
+				Rcvd Configure Response - Success (SCID: 0x004b)
+				Rcvd Configure Request (DCID: 0x004b)
+				Sent Configure Response - Success (SCID: 0x5240)
+				Rcvd UA Channel=0 
+				Sent UIH Channel=0 -> 3 MPX_CTRL DLC Parameter Negotiation (PN) 
+				Rcvd UIH Channel=0 -> 3 MPX_CTRL DLC Parameter Negotiation (PN) 
+				Sent SABM Channel=3 (Hands-Free) 
+				Rcvd UA Channel=3 
+				Sent UIH Channel=0 -> 3 MPX_CTRL Modem Status Command (MSC) 
+				Rcvd UIH Channel=0 -> 3 MPX_CTRL Modem Status Command (MSC) 
+				Sent UIH Channel=0 -> 3 MPX_CTRL Modem Status Command (MSC) 
+				Rcvd UIH Channel=0 -> 3 MPX_CTRL Modem Status Command (MSC) 
+				Rcvd UIH Channel=3 UID 
+				Rcvd AT+BRSF=1023 
+				Sent UIH Channel=3 UID 
+				Sent   +BRSF: 4079  
+				Sent   OK  
+				Rcvd AT+BAC=1,2 
+				Sent   OK  
+				Rcvd AT+CIND=? 
+				Sent   +CIND: ("CALL",(0,1)),("CALLSETUP",(0-3)),("SERVICE",(0-1)),("SIGNAL",(0-5)),("ROAM",(0,1)),("BATTCHG",(0-5)),("CALLHELD",(0-2))  
+				Sent   OK  
+				Rcvd AT+CIND? 
+				Sent   +CIND: 0,0,1,2,0,3,0  
+				Sent   OK  
+				Rcvd AT+CMER=3,0,0,1 
+				Sent   OK  
+				Rcvd AT+CHLD=? 
+				Sent   +CHLD: (0,1,1X,2,2X,3)  
+				Sent   OK  
+				Rcvd AT+BIND=1,2 
+				Sent   OK  
+				Rcvd AT+BIND=? 
+				Sent   +BIND: (1,2)  
+				Sent   OK  
+				Rcvd AT+BIND? 
+				Sent   +BIND: 1,1  
+				Sent   +BIND: 2,1  
+				Sent   OK  
+				Sent Connection Request (SDP, SCID: 0x004c)
+				Rcvd AT+VGS=7 
+				Sent   OK  
+				Rcvd Connection Response - Success (SCID: 0x004c, DCID: 0x200d)
+				Sent Configure Request (DCID: 0x200d)
+				Rcvd AT+NREC=0 
+				Sent   OK  
+				Rcvd Configure Response - Success (SCID: 0x004c)
+				Rcvd Configure Request (DCID: 0x004c)
+				Rcvd AT+CLIP=1 
+				Sent Configure Response - Success (SCID: 0x200d)
+				Sent Service Search Attribute Request : Audio Sink: [Service Class ID List 0x0001] [Protocol Descriptor List 0x0004] [Bluetooth Profile Descriptor List 0x0009] 
+				Sent   OK  
+				Rcvd Service Search Attribute Response 
+				Rcvd AT+CCWA=1 
+				Sent Disconnection Request (SCID: 0x004c, DCID: 0x200d, PSM: 0x0001, Service: SDP)
+				Sent   OK  
+				Rcvd Disconnection Response (SCID: 0x004c, DCID: 0x200d, PSM: 0x0001, Service: SDP)
+				Rcvd UIH Channel=3 UID 
+				Sent Connection Request (AVDTP, SCID: 0x004d)
+				Rcvd AT+COPS=3,0 
+				Sent   OK  
+				Rcvd Connection Response - Success (SCID: 0x004d, DCID: 0x9040)
+				Sent Configure Request (DCID: 0x9040)
+				Rcvd AT+CMEE=1 
+				Sent   OK  
+				Rcvd Configure Response - Success (SCID: 0x004d)
+				Rcvd Configure Request (DCID: 0x004d)
+				Sent Configure Response - Success (SCID: 0x9040)
+				Sent Command - Discover
+				Rcvd AT+CNUM 
+				Sent   +CNUM: ,"+994554947493",145,,4  
+				Sent   OK  
+				Rcvd ResponseAccept - Discover - items: 5
+				Sent Command - GetAllCapabilities - ACP SEID [1 - Audio Sink]
+				Rcvd AT+XAPL=0000-0000-0100,3 
+				Sent   +XAPL=IPHONE,7  
+				Sent   OK  
+				Rcvd ResponseAccept - GetAllCapabilities - Audio SBC (44100 48000 | Mono DualChannel Stereo JointStereo | block: 4 8 12 16 | subbands: 4 8 | allocation: SNR Loudness | bitpool: 2..39)
+				Sent Command - GetAllCapabilities - ACP SEID [2 - Audio Sink]
+				Rcvd AT+BIEV=2,100 
+				Sent   OK  
+				Rcvd ResponseAccept - GetAllCapabilities - Audio MPEG-2,4 AAC
+				Sent Command - GetAllCapabilities - ACP SEID [3 - Audio Sink]
+				Rcvd AT+XIAOMI=FF010201010400020A0CFF 
+				Sent   +CME ERROR: 0  
+				Rcvd ResponseAccept - GetAllCapabilities - Audio non-A2DP
+				Sent Command - GetAllCapabilities - ACP SEID [4 - Audio Sink]
+				Rcvd AT+XIAOMI=FF01020102200102011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F3FF 
+				Sent   +CME ERROR: 0  
+				Rcvd ResponseAccept - GetAllCapabilities - Audio non-A2DP
+				Sent Command - GetAllCapabilities - ACP SEID [5 - Audio Sink]
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E05D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd ResponseAccept - GetAllCapabilities - Audio non-A2DP
+				Sent Command - SetConfiguration - ACP SEID [2 - Audio Sink] - INT SEID [2 - unknown unknown] - Audio MPEG-2,4 AAC
+				Rcvd AT+XIAOMI=FF0102010115000401E7FF970B2005010137010000000101020D00FF 
+				Rcvd ResponseAccept - SetConfiguration
+				Sent   +CME ERROR: 0  
+				Rcvd Command - DelayReport(270.0 ms) - ACP SEID [2 - Audio Sink]
+				Sent ResponseAccept - DelayReport
+				Sent Command - Open - ACP SEID [2 - Audio Sink]
+				Rcvd AT+XIAOMI=1,1,110,100,100,255,233 
+				Sent   +CME ERROR: 0  
+				Rcvd ResponseAccept - Open
+				Sent Connection Request (AVDTP, SCID: 0x004e)
+				Rcvd Connection Response - Success (SCID: 0x004e, DCID: 0xa040)
+				Sent Configure Request (DCID: 0xa040)
+				Rcvd Configure Response - Success (SCID: 0x004e)
+				Rcvd Configure Request (DCID: 0x004e)
+				Sent Configure Response - Success (SCID: 0xa040)
+				Rcvd Connection Request (SDP, SCID: 0x1040)
+				Rcvd Command - Discover
+				Sent Connection Response - Success (SCID: 0x1040, DCID: 0x004f)
+				Sent Configure Request (DCID: 0x1040)
+				Sent ResponseAccept - Discover - items: 5
+				Rcvd Configure Request (DCID: 0x004f)
+				Rcvd Configure Response - Success (SCID: 0x004f)
+				Rcvd Command - GetAllCapabilities - ACP SEID [1 - Audio Source]
+				Sent Configure Response - Success (SCID: 0x1040)
+				Sent ResponseAccept - GetAllCapabilities - Audio SBC (44100 | Mono JointStereo | block: 4 8 12 16 | subbands: 8 | allocation: Loudness | bitpool: 2..53)
+				Rcvd Service Search Attribute Request : A/V Remote Control Target: AVCTP: [Service Class ID List 0x0001] [Protocol Descriptor List 0x0004] [Bluetooth Profile Descriptor List 0x0009] [(AVRCP) Supported Features 0x0311] 
+				Rcvd Command - GetAllCapabilities - ACP SEID [2 - Audio Source]
+				Sent Service Search Attribute Response 
+				Sent ResponseAccept - GetAllCapabilities - Audio MPEG-2,4 AAC
+				Rcvd Connection Request (AVCTP-Control, SCID: 0x7040)
+				Sent Connection Response - Success (SCID: 0x7040, DCID: 0x0050)
+				Sent Configure Request (DCID: 0x7040)
+				Rcvd Disconnection Request (SCID: 0x1040, DCID: 0x004f, PSM: 0x0001, Service: SDP)
+				Sent Disconnection Response (SCID: 0x1040, DCID: 0x004f, PSM: 0x0001, Service: SDP)
+				Rcvd Command - GetAllCapabilities - ACP SEID [3 - Audio Source]
+				Sent ResponseAccept - GetAllCapabilities - Audio non-A2DP (aptX - 44100, Stereo)
+				Rcvd Configure Request (DCID: 0x0050)
+				Sent Configure Response - Success (SCID: 0x7040)
+				Rcvd Configure Response - Success (SCID: 0x0050)
+				Rcvd Command - GetAllCapabilities - ACP SEID [4 - Audio Source]
+				Sent Connection Request (SDP, SCID: 0x0051)
+				Sent ResponseAccept - GetAllCapabilities - Audio non-A2DP (LDAC - 44100 48000 88200 96000, DualChannel Stereo)
+				Rcvd Connection Request (SDP, SCID: 0x1040)
+				Sent Connection Response - Success (SCID: 0x1040, DCID: 0x0052)
+				Sent Configure Request (DCID: 0x1040)
+				Rcvd Vendor dependent: Status - GetCapabilities(Events Supported)
+				Sent Vendor dependent: Stable - GetCapabilities(Events Supported) - Count: 7
+				Rcvd Connection Response - Success (SCID: 0x0051, DCID: 0x2016)
+				Sent Configure Request (DCID: 0x2016)
+				Rcvd Command - GetAllCapabilities - ACP SEID [5 - Audio Source]
+				Sent ResponseAccept - GetAllCapabilities - Audio non-A2DP
+				Rcvd Configure Request (DCID: 0x0052)
+				Sent Configure Response - Success (SCID: 0x1040)
+				Rcvd Configure Response - Success (SCID: 0x0052)
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Paused
+				Rcvd Configure Response - Success (SCID: 0x0051)
+				Rcvd Configure Request (DCID: 0x0051)
+				Sent Configure Response - Success (SCID: 0x2016)
+				Sent Service Search Attribute Request : A/V Remote Control: [Service Class ID List 0x0001] [Bluetooth Profile Descriptor List 0x0009] [(AVRCP) Supported Features 0x0311] 
+				Rcvd Service Search Attribute Request : A/V Remote Control: AVCTP: [Service Class ID List 0x0001] [Protocol Descriptor List 0x0004] [Bluetooth Profile Descriptor List 0x0009] [(AVRCP) Supported Features 0x0311] 
+				Sent Service Search Attribute Response 
+				Rcvd Service Search Attribute Response 
+				Sent Service Search Attribute Request : Audio Sink: [Service Class ID List 0x0001] [Bluetooth Profile Descriptor List 0x0009] [(A2DP) Supported Features 0x0311] 
+				Rcvd Disconnection Request (SCID: 0x1040, DCID: 0x0052, PSM: 0x0001, Service: SDP)
+				Sent Vendor dependent: Notify - RegisterNotification - VolumeChanged
+				Sent Disconnection Response (SCID: 0x1040, DCID: 0x0052, PSM: 0x0001, Service: SDP)
+				Rcvd Service Search Attribute Response 
+				Sent Service Search Attribute Request : PnP Information: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Vendor dependent: Interim - RegisterNotification - VolumeChanged - Volume: 26%
+				Rcvd Service Search Attribute Response 
+				Sent Disconnection Request (SCID: 0x0051, DCID: 0x2016, PSM: 0x0001, Service: PnP Information)
+				Rcvd Disconnection Response (SCID: 0x0051, DCID: 0x2016, PSM: 0x0001, Service: PnP Information)
+				Sent Connection Request (SDP, SCID: 0x0053)
+				Rcvd Connection Response - Success (SCID: 0x0053, DCID: 0x201a)
+				Sent Configure Request (DCID: 0x201a)
+				Rcvd Configure Response - Success (SCID: 0x0053)
+				Rcvd Configure Request (DCID: 0x0053)
+				Sent Configure Response - Success (SCID: 0x201a)
+				Sent Service Search Attribute Request : L2CAP: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response (fragment)
+				Sent Service Search Attribute Request : L2CAP: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response (fragment)
+				Sent Service Search Attribute Request : L2CAP: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response (fragment)
+				Sent Service Search Attribute Request : L2CAP: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response (fragment)
+				Sent Service Search Attribute Request : L2CAP: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response (fragment)
+				Sent Service Search Attribute Request : L2CAP: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response (fragment)
+				Sent Service Search Attribute Request : L2CAP: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response (fragment)
+				Sent Service Search Attribute Request : L2CAP: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response (fragment)
+				Sent Service Search Attribute Request : L2CAP: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response (fragment)
+				Sent Service Search Attribute Request : L2CAP: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response (fragment)
+				Sent Service Search Attribute Request : L2CAP: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response (fragment)
+				Sent Service Search Attribute Request : L2CAP: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response 
+				Sent Service Search Attribute Request : Phonebook Access Client: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response 
+				Sent Disconnection Request (SCID: 0x0053, DCID: 0x201a, PSM: 0x0001, Service: PnP Information)
+				Rcvd Disconnection Response (SCID: 0x0053, DCID: 0x201a, PSM: 0x0001, Service: PnP Information)
+				Sent Command - Start - ACP SEID [2 - Audio Sink]
+				Rcvd Command - DelayReport(270.0 ms) - ACP SEID [2 - Audio Source]
+				Sent ResponseAccept - DelayReport
+				Rcvd ResponseAccept - Start
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				PT=MPEG Audio, SSRC=0x2, Seq=1, Time=0, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2, Time=1024, Mark
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				PT=MPEG Audio, SSRC=0x2, Seq=3, Time=2048, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=4, Time=3072, Mark
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E05D0D7F30000376464FFE9E35017277C000100FF 
+				Sent   +CME ERROR: 0  
+				PT=MPEG Audio, SSRC=0x2, Seq=5, Time=4096, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=6, Time=5120, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=7, Time=6144, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=8, Time=7168, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=9, Time=8192, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=10, Time=9216, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=11, Time=10240, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=12, Time=11264, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=13, Time=12288, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=14, Time=13312, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=15, Time=14336, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=16, Time=15360, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=17, Time=16384, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=18, Time=17408, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=19, Time=18432, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=20, Time=19456, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=21, Time=20480, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=22, Time=21504, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=23, Time=22528, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=24, Time=23552, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=25, Time=24576, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=26, Time=25600, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=27, Time=26624, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=28, Time=27648, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=29, Time=28672, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=30, Time=29696, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=31, Time=30720, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=32, Time=31744, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=33, Time=32768, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=34, Time=33792, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=35, Time=34816, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=36, Time=35840, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=37, Time=36864, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=38, Time=37888, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=39, Time=38912, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=40, Time=39936, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=41, Time=40960, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=42, Time=41984, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=43, Time=43008, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=44, Time=44032, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=45, Time=45056, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=46, Time=46080, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=47, Time=47104, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=48, Time=48128, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=49, Time=49152, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=50, Time=50176, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=51, Time=51200, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=52, Time=52224, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=53, Time=53248, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=54, Time=54272, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=55, Time=55296, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=56, Time=56320, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=57, Time=57344, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=58, Time=58368, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=59, Time=59392, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=60, Time=60416, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=61, Time=61440, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=62, Time=62464, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=63, Time=63488, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=64, Time=64512, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=65, Time=65536, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=66, Time=66560, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=67, Time=67584, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=68, Time=68608, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=69, Time=69632, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=70, Time=70656, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=71, Time=71680, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=72, Time=72704, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=73, Time=73728, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=74, Time=74752, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=75, Time=75776, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=76, Time=76800, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=77, Time=77824, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=78, Time=78848, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=79, Time=79872, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=80, Time=80896, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=81, Time=81920, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=82, Time=82944, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=83, Time=83968, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=84, Time=84992, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=85, Time=86016, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=86, Time=87040, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=87, Time=88064, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=88, Time=89088, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=89, Time=90112, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=90, Time=91136, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=91, Time=92160, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=92, Time=93184, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=93, Time=94208, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=94, Time=95232, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=95, Time=96256, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=96, Time=97280, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=97, Time=98304, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=98, Time=99328, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=99, Time=100352, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=100, Time=101376, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=101, Time=102400, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=102, Time=103424, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=103, Time=104448, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=104, Time=105472, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=105, Time=106496, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=106, Time=107520, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=107, Time=108544, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=108, Time=109568, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=109, Time=110592, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=110, Time=111616, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=111, Time=112640, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=112, Time=113664, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=113, Time=114688, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=114, Time=115712, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=115, Time=116736, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=116, Time=117760, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=117, Time=118784, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=118, Time=119808, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=119, Time=120832, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=120, Time=121856, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=121, Time=122880, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=122, Time=123904, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=123, Time=124928, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=124, Time=125952, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=125, Time=126976, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=126, Time=128000, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=127, Time=129024, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=128, Time=130048, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=129, Time=131072, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=130, Time=132096, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=131, Time=133120, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=132, Time=134144, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=133, Time=135168, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=134, Time=136192, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=135, Time=137216, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=136, Time=138240, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=137, Time=139264, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=138, Time=140288, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=139, Time=141312, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=140, Time=142336, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=141, Time=143360, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=142, Time=144384, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=143, Time=145408, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=144, Time=146432, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=145, Time=147456, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=146, Time=148480, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=147, Time=149504, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=148, Time=150528, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=149, Time=151552, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=150, Time=152576, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=151, Time=153600, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=152, Time=154624, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=153, Time=155648, Mark
+				Sent Command - Suspend - ACP SEID [2 - Audio Sink]
+				Rcvd ResponseAccept - Suspend
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Paused
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Paused
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E05D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Sent Connection Request (SDP, SCID: 0x0054)
+				Rcvd Connection Response - Success (SCID: 0x0054, DCID: 0x201d)
+				Sent Configure Request (DCID: 0x201d)
+				Rcvd Configure Response - Success (SCID: 0x0054)
+				Rcvd Configure Request (DCID: 0x0054)
+				Sent Configure Response - Success (SCID: 0x201d)
+				Sent Service Search Attribute Request : Xiaomi Inc.: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response 
+				Sent Disconnection Request (SCID: 0x0054, DCID: 0x201d, PSM: 0x0001, Service: PnP Information)
+				Rcvd Disconnection Response (SCID: 0x0054, DCID: 0x201d, PSM: 0x0001, Service: PnP Information)
+				Sent UIH Channel=0 -> 28 MPX_CTRL DLC Parameter Negotiation (PN) 
+				Rcvd UIH Channel=0 -> 28 MPX_CTRL DLC Parameter Negotiation (PN) 
+				Sent SABM Channel=28 (Xiaomi Inc.) 
+				Rcvd UA Channel=28 
+				Sent UIH Channel=0 -> 28 MPX_CTRL Modem Status Command (MSC) 
+				Rcvd UIH Channel=0 -> 28 MPX_CTRL Modem Status Command (MSC) 
+				Sent UIH Channel=0 -> 28 MPX_CTRL Modem Status Command (MSC) 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=0 -> 28 MPX_CTRL Modem Status Command (MSC) 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd AT+XIAOMI=FF01020102200102011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F3FF 
+				Sent   +CME ERROR: 0  
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd AT+XIAOMI=FF01020102200102011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F3FF 
+				Sent   +CME ERROR: 0  
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd AT+XIAOMI=FF010201010400020A0CFF 
+				Sent   +CME ERROR: 0  
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Sent Command - Start - ACP SEID [2 - Audio Sink]
+				Rcvd Command - DelayReport(270.0 ms) - ACP SEID [2 - Audio Source]
+				Sent ResponseAccept - DelayReport
+				Rcvd ResponseAccept - Start
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				PT=MPEG Audio, SSRC=0x2, Seq=154, Time=0, Mark
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				PT=MPEG Audio, SSRC=0x2, Seq=155, Time=1024, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=156, Time=2048, Mark
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E350172774000100FF 
+				Sent   +CME ERROR: 0  
+				PT=MPEG Audio, SSRC=0x2, Seq=157, Time=3072, Mark
+				Rcvd UIH Channel=3 UID 
+				PT=MPEG Audio, SSRC=0x2, Seq=159, Time=5120, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=160, Time=6144, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=162, Time=8192, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=163, Time=9216, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=164, Time=10240, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=165, Time=11264, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=166, Time=12288, Mark
+				Sent UIH Channel=28 
+				PT=MPEG Audio, SSRC=0x2, Seq=167, Time=13312, Mark
+				Sent UIH Channel=28 
+				PT=MPEG Audio, SSRC=0x2, Seq=168, Time=14336, Mark
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				PT=MPEG Audio, SSRC=0x2, Seq=169, Time=15360, Mark
+				Rcvd UIH Channel=28 
+				Audio Layer 1, 96 kb/s, 48 kHz
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				PT=MPEG Audio, SSRC=0x2, Seq=171, Time=17408, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=172, Time=18432, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=173, Time=19456, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=174, Time=20480, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=175, Time=21504, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=176, Time=22528, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=177, Time=23552, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=178, Time=24576, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=179, Time=25600, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=180, Time=26624, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=181, Time=27648, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=182, Time=28672, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=183, Time=29696, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=184, Time=30720, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=185, Time=31744, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=186, Time=32768, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=187, Time=33792, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=188, Time=34816, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=189, Time=35840, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=190, Time=36864, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=191, Time=37888, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=192, Time=38912, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=193, Time=39936, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=194, Time=40960, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=195, Time=41984, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=196, Time=43008, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=197, Time=44032, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=198, Time=45056, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=199, Time=46080, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=200, Time=47104, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=201, Time=48128, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=202, Time=49152, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=203, Time=50176, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=204, Time=51200, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=205, Time=52224, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=206, Time=53248, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=207, Time=54272, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=208, Time=55296, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=209, Time=56320, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=210, Time=57344, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=211, Time=58368, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=212, Time=59392, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=213, Time=60416, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=214, Time=61440, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=215, Time=62464, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=216, Time=63488, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=217, Time=64512, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=218, Time=65536, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=219, Time=66560, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=220, Time=67584, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=221, Time=68608, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=222, Time=69632, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=223, Time=70656, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=224, Time=71680, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=225, Time=72704, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=226, Time=73728, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=227, Time=74752, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=228, Time=75776, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=229, Time=76800, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=230, Time=77824, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=231, Time=78848, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=232, Time=79872, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=233, Time=80896, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=234, Time=81920, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=235, Time=82944, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=236, Time=83968, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=237, Time=84992, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=238, Time=86016, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=239, Time=87040, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=240, Time=88064, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=241, Time=89088, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=242, Time=90112, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=243, Time=91136, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=244, Time=92160, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=245, Time=93184, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=246, Time=94208, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=247, Time=95232, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=248, Time=96256, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=249, Time=97280, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=250, Time=98304, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=251, Time=99328, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=252, Time=100352, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=253, Time=101376, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=254, Time=102400, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=255, Time=103424, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=256, Time=104448, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=257, Time=105472, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=258, Time=106496, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=259, Time=107520, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=260, Time=108544, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=261, Time=109568, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=262, Time=110592, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=263, Time=111616, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=264, Time=112640, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=265, Time=113664, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=266, Time=114688, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=267, Time=115712, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=268, Time=116736, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=269, Time=117760, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=270, Time=118784, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=271, Time=119808, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=272, Time=120832, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=273, Time=121856, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=274, Time=122880, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=275, Time=123904, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=276, Time=124928, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=277, Time=125952, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=278, Time=126976, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=279, Time=128000, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=280, Time=129024, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=281, Time=130048, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=282, Time=131072, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=283, Time=132096, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=284, Time=133120, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=285, Time=134144, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=286, Time=135168, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=287, Time=136192, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=288, Time=137216, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=289, Time=138240, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=290, Time=139264, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=291, Time=140288, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=292, Time=141312, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=293, Time=142336, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=294, Time=143360, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=295, Time=144384, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=296, Time=145408, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=297, Time=146432, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=298, Time=147456, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=299, Time=148480, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=300, Time=149504, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=301, Time=150528, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=302, Time=151552, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=303, Time=152576, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=304, Time=153600, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=305, Time=154624, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=306, Time=155648, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=307, Time=156672, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=308, Time=157696, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=309, Time=158720, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=310, Time=159744, Mark
+				Sent Command - Suspend - ACP SEID [2 - Audio Sink]
+				Rcvd ResponseAccept - Suspend
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Paused
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Paused
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277A000100FF 
+				Sent   +CME ERROR: 0  
+				Sent   +CIEV: 6,2  
+				Sent   +CIEV: 4,3  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277A000100FF 
+				Sent   +CME ERROR: 0  
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277A000100FF 
+				Sent   +CME ERROR: 0  
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277A000100FF 
+				Sent   +CME ERROR: 0  
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277A000100FF 
+				Sent   +CME ERROR: 0  
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277C000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277A000100FF 
+				Sent   +CME ERROR: 0  
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277A000100FF 
+				Sent   +CME ERROR: 0  
+				Sent   +CIEV: 4,2  
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd UIH Channel=3 UID 
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277A000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Sent   +CIEV: 4,3  
+				Sent   +CIEV: 4,2  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277A000100FF 
+				Sent   +CME ERROR: 0  
+				Sent   +CIEV: 4,3  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Sent   +CIEV: 4,2  
+				Sent   +CIEV: 4,3  
+				Sent   +CIEV: 4,2  
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Sent   +CIEV: 4,3  
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent   +CIEV: 4,2  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277A000100FF 
+				Sent   +CME ERROR: 0  
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent   +CIEV: 4,3  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Sent   +CIEV: 4,2  
+				Sent   +CIEV: 4,3  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277A000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277A000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd UIH Channel=3 UID 
+				Sent UIH Channel=28 
+				Sent UIH Channel=28 
+				Sent UIH Channel=28 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent   +CIEV: 4,2  
+				Sent   +CIEV: 4,3  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277A000100FF 
+				Sent   +CME ERROR: 0  
+				Sent   +CIEV: 4,2  
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277A000100FF 
+				Sent   +CME ERROR: 0  
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Sent   +CIEV: 4,3  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277C000100FF 
+				Sent   +CME ERROR: 0  
+				Sent Command - Start - ACP SEID [2 - Audio Sink]
+				Rcvd Command - DelayReport(270.0 ms) - ACP SEID [2 - Audio Source]
+				Sent ResponseAccept - DelayReport
+				Rcvd ResponseAccept - Start
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				PT=MPEG Audio, SSRC=0x2, Seq=311, Time=0, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=312, Time=1024, Mark
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				PT=MPEG Audio, SSRC=0x2, Seq=313, Time=2048, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=314, Time=3072, Mark
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E350172774000100FF 
+				Sent   +CME ERROR: 0  
+				PT=MPEG Audio, SSRC=0x2, Seq=316, Time=5120, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=317, Time=6144, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=319, Time=8192, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=320, Time=9216, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=321, Time=10240, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=322, Time=11264, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=323, Time=12288, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=324, Time=13312, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=325, Time=14336, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=326, Time=15360, Mark
+				Audio Layer 1, 96 kb/s, 48 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=328, Time=17408, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=329, Time=18432, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=330, Time=19456, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=331, Time=20480, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=332, Time=21504, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=333, Time=22528, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=334, Time=23552, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=335, Time=24576, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=336, Time=25600, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=337, Time=26624, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=338, Time=27648, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=339, Time=28672, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=340, Time=29696, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=341, Time=30720, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=342, Time=31744, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=343, Time=32768, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=344, Time=33792, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=345, Time=34816, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=346, Time=35840, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=347, Time=36864, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=348, Time=37888, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=349, Time=38912, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=350, Time=39936, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=351, Time=40960, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=352, Time=41984, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=353, Time=43008, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=354, Time=44032, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=355, Time=45056, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=356, Time=46080, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=357, Time=47104, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=358, Time=48128, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=359, Time=49152, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=360, Time=50176, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=361, Time=51200, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=362, Time=52224, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=363, Time=53248, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=364, Time=54272, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=365, Time=55296, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=366, Time=56320, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=367, Time=57344, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=368, Time=58368, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=369, Time=59392, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=370, Time=60416, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=371, Time=61440, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=372, Time=62464, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=373, Time=63488, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=374, Time=64512, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=375, Time=65536, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=376, Time=66560, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=377, Time=67584, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=378, Time=68608, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=379, Time=69632, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=380, Time=70656, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=381, Time=71680, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=382, Time=72704, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=383, Time=73728, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=384, Time=74752, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=385, Time=75776, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=386, Time=76800, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=387, Time=77824, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=388, Time=78848, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=389, Time=79872, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=390, Time=80896, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=391, Time=81920, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=392, Time=82944, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=393, Time=83968, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=394, Time=84992, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=395, Time=86016, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=396, Time=87040, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=397, Time=88064, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=398, Time=89088, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=399, Time=90112, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=400, Time=91136, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=401, Time=92160, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=402, Time=93184, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=403, Time=94208, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=404, Time=95232, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=405, Time=96256, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=406, Time=97280, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=407, Time=98304, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=408, Time=99328, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=409, Time=100352, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=410, Time=101376, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=411, Time=102400, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=412, Time=103424, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=413, Time=104448, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=414, Time=105472, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=415, Time=106496, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=416, Time=107520, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=417, Time=108544, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=418, Time=109568, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=419, Time=110592, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=420, Time=111616, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=421, Time=112640, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=422, Time=113664, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=423, Time=114688, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=424, Time=115712, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=425, Time=116736, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=426, Time=117760, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=427, Time=118784, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=428, Time=119808, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=429, Time=120832, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=430, Time=121856, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=431, Time=122880, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=432, Time=123904, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=433, Time=124928, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=434, Time=125952, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=435, Time=126976, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=436, Time=128000, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=437, Time=129024, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=438, Time=130048, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=439, Time=131072, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=440, Time=132096, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=441, Time=133120, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=442, Time=134144, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=443, Time=135168, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=444, Time=136192, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=445, Time=137216, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=446, Time=138240, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=447, Time=139264, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=448, Time=140288, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=449, Time=141312, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=450, Time=142336, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=451, Time=143360, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=452, Time=144384, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=453, Time=145408, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=454, Time=146432, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=455, Time=147456, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=456, Time=148480, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=457, Time=149504, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=458, Time=150528, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=459, Time=151552, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=460, Time=152576, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=461, Time=153600, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=462, Time=154624, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=463, Time=155648, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=464, Time=156672, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=465, Time=157696, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=466, Time=158720, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=467, Time=159744, Mark
+				Sent Command - Suspend - ACP SEID [2 - Audio Sink]
+				Rcvd ResponseAccept - Suspend
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Paused
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277C000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Paused
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277A000100FF 
+				Sent   +CME ERROR: 0  
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277A000100FF 
+				Sent   +CME ERROR: 0  
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277A000100FF 
+				Sent   +CME ERROR: 0  
+				Sent   +CIEV: 4,2  
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd UIH Channel=3 UID 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent Command - Start - ACP SEID [2 - Audio Sink]
+				Rcvd Command - DelayReport(270.0 ms) - ACP SEID [2 - Audio Source]
+				Sent ResponseAccept - DelayReport
+				Rcvd ResponseAccept - Start
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				PT=MPEG Audio, SSRC=0x2, Seq=468, Time=0, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=469, Time=1024, Mark
+				Audio Layer 1, 128 kb/s, 48 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=471, Time=3072, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=472, Time=4096, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=473, Time=5120, Mark
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E350172774000100FF 
+				Sent   +CME ERROR: 0  
+				PT=MPEG Audio, SSRC=0x2, Seq=474, Time=6144, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=475, Time=7168, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=476, Time=8192, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=477, Time=9216, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=478, Time=10240, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=479, Time=11264, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=480, Time=12288, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=481, Time=13312, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=482, Time=14336, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=483, Time=15360, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=484, Time=16384, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=485, Time=17408, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=486, Time=18432, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=487, Time=19456, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=488, Time=20480, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=489, Time=21504, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=490, Time=22528, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=491, Time=23552, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=492, Time=24576, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=493, Time=25600, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=494, Time=26624, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=495, Time=27648, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=496, Time=28672, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=497, Time=29696, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=498, Time=30720, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=499, Time=31744, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=500, Time=32768, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=501, Time=33792, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=502, Time=34816, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=503, Time=35840, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=504, Time=36864, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=505, Time=37888, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=506, Time=38912, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=507, Time=39936, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=508, Time=40960, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=509, Time=41984, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=510, Time=43008, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=511, Time=44032, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=512, Time=45056, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=513, Time=46080, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=514, Time=47104, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=515, Time=48128, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=516, Time=49152, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=517, Time=50176, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=518, Time=51200, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=519, Time=52224, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=520, Time=53248, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=521, Time=54272, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=522, Time=55296, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=523, Time=56320, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=524, Time=57344, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=525, Time=58368, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=526, Time=59392, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=527, Time=60416, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=528, Time=61440, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=529, Time=62464, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=530, Time=63488, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=531, Time=64512, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=532, Time=65536, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=533, Time=66560, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=534, Time=67584, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=535, Time=68608, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=536, Time=69632, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=537, Time=70656, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=538, Time=71680, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=539, Time=72704, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=540, Time=73728, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=541, Time=74752, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=542, Time=75776, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=543, Time=76800, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=544, Time=77824, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=545, Time=78848, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=546, Time=79872, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=547, Time=80896, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=548, Time=81920, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=549, Time=82944, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=550, Time=83968, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=551, Time=84992, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=552, Time=86016, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=553, Time=87040, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=554, Time=88064, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=555, Time=89088, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=556, Time=90112, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=557, Time=91136, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=558, Time=92160, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=559, Time=93184, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=560, Time=94208, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=561, Time=95232, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=562, Time=96256, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=563, Time=97280, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=564, Time=98304, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=565, Time=99328, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=566, Time=100352, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=567, Time=101376, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=568, Time=102400, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=569, Time=103424, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=570, Time=104448, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=571, Time=105472, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=572, Time=106496, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=573, Time=107520, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=574, Time=108544, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=575, Time=109568, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=576, Time=110592, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=577, Time=111616, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=578, Time=112640, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=579, Time=113664, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=580, Time=114688, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=581, Time=115712, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=582, Time=116736, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=583, Time=117760, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=584, Time=118784, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=585, Time=119808, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=586, Time=120832, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=587, Time=121856, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=588, Time=122880, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=589, Time=123904, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=590, Time=124928, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=591, Time=125952, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=592, Time=126976, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=593, Time=128000, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=594, Time=129024, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=595, Time=130048, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=596, Time=131072, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=597, Time=132096, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=598, Time=133120, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=599, Time=134144, Mark
+				Sent Command - Suspend - ACP SEID [2 - Audio Sink]
+				Rcvd ResponseAccept - Suspend
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Paused
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Paused
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Sent Command - Start - ACP SEID [2 - Audio Sink]
+				Rcvd Command - DelayReport(270.0 ms) - ACP SEID [2 - Audio Source]
+				Sent ResponseAccept - DelayReport
+				Rcvd ResponseAccept - Start
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				PT=MPEG Audio, SSRC=0x2, Seq=600, Time=0, Mark
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				PT=MPEG Audio, SSRC=0x2, Seq=601, Time=1024, Mark
+				Audio Layer 1, 80 kb/s, 24 kHz
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E350172774000100FF 
+				Sent   +CME ERROR: 0  
+				PT=MPEG Audio, SSRC=0x2, Seq=604, Time=4096, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=605, Time=5120, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=606, Time=6144, Mark
+				Audio Layer 1, 32 kb/s, 32 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=608, Time=8192, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=609, Time=9216, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=610, Time=10240, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=611, Time=11264, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=612, Time=12288, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=613, Time=13312, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=614, Time=14336, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=615, Time=15360, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=616, Time=16384, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=617, Time=17408, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=618, Time=18432, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=619, Time=19456, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=620, Time=20480, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=621, Time=21504, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=622, Time=22528, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=623, Time=23552, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=624, Time=24576, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=625, Time=25600, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=626, Time=26624, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=627, Time=27648, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=628, Time=28672, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=629, Time=29696, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=630, Time=30720, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=631, Time=31744, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=632, Time=32768, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=633, Time=33792, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=634, Time=34816, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=635, Time=35840, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=636, Time=36864, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=637, Time=37888, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=638, Time=38912, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=639, Time=39936, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=640, Time=40960, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=641, Time=41984, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=642, Time=43008, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=643, Time=44032, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=644, Time=45056, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=645, Time=46080, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=646, Time=47104, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=647, Time=48128, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=648, Time=49152, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=649, Time=50176, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=650, Time=51200, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=651, Time=52224, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=652, Time=53248, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=653, Time=54272, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=654, Time=55296, Mark
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E350172774000100FF 
+				PT=MPEG Audio, SSRC=0x2, Seq=655, Time=56320, Mark
+				Sent   +CME ERROR: 0  
+				PT=MPEG Audio, SSRC=0x2, Seq=656, Time=57344, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=657, Time=58368, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=658, Time=59392, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=659, Time=60416, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=660, Time=61440, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=661, Time=62464, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=662, Time=63488, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=663, Time=64512, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=664, Time=65536, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=665, Time=66560, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=666, Time=67584, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=667, Time=68608, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=668, Time=69632, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=669, Time=70656, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=670, Time=71680, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=671, Time=72704, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=672, Time=73728, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=673, Time=74752, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=674, Time=75776, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=675, Time=76800, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=676, Time=77824, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=677, Time=78848, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=678, Time=79872, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=679, Time=80896, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=680, Time=81920, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=681, Time=82944, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=682, Time=83968, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=683, Time=84992, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=684, Time=86016, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=685, Time=87040, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=686, Time=88064, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=687, Time=89088, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=688, Time=90112, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=689, Time=91136, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=690, Time=92160, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=691, Time=93184, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=692, Time=94208, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=693, Time=95232, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=694, Time=96256, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=695, Time=97280, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=696, Time=98304, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=697, Time=99328, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=698, Time=100352, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=699, Time=101376, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=700, Time=102400, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=701, Time=103424, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=702, Time=104448, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=703, Time=105472, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=704, Time=106496, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=705, Time=107520, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=706, Time=108544, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=707, Time=109568, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=708, Time=110592, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=709, Time=111616, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=710, Time=112640, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=711, Time=113664, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=712, Time=114688, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=713, Time=115712, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=714, Time=116736, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=715, Time=117760, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=716, Time=118784, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=717, Time=119808, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=718, Time=120832, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=719, Time=121856, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=720, Time=122880, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=721, Time=123904, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=722, Time=124928, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=723, Time=125952, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=724, Time=126976, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=725, Time=128000, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=726, Time=129024, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=727, Time=130048, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=728, Time=131072, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=729, Time=132096, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=730, Time=133120, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=731, Time=134144, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=732, Time=135168, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=733, Time=136192, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=734, Time=137216, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=735, Time=138240, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=736, Time=139264, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=737, Time=140288, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=738, Time=141312, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=739, Time=142336, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=740, Time=143360, Mark
+				Sent Command - Suspend - ACP SEID [2 - Audio Sink]
+				Rcvd ResponseAccept - Suspend
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Paused
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277C000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Paused
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277A000100FF 
+				Sent   +CME ERROR: 0  
+				Sent   +CIEV: 4,3  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Sent Command - Start - ACP SEID [2 - Audio Sink]
+				Rcvd Command - DelayReport(270.0 ms) - ACP SEID [2 - Audio Source]
+				Rcvd ResponseAccept - Start
+				Sent ResponseAccept - DelayReport
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				PT=MPEG Audio, SSRC=0x2, Seq=741, Time=0, Mark
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				PT=MPEG Audio, SSRC=0x2, Seq=742, Time=1024, Mark
+				Audio Layer 1, 128 kb/s, 48 kHz
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E350172774000100FF 
+				Sent   +CME ERROR: 0  
+				PT=MPEG Audio, SSRC=0x2, Seq=744, Time=3072, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=745, Time=4096, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=746, Time=5120, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=747, Time=6144, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=748, Time=7168, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=749, Time=8192, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=750, Time=9216, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=751, Time=10240, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=752, Time=11264, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=753, Time=12288, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=754, Time=13312, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=755, Time=14336, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=756, Time=15360, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=757, Time=16384, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=758, Time=17408, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=759, Time=18432, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=760, Time=19456, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=761, Time=20480, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=762, Time=21504, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=763, Time=22528, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=764, Time=23552, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=765, Time=24576, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=766, Time=25600, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=767, Time=26624, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=768, Time=27648, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=769, Time=28672, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=770, Time=29696, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=771, Time=30720, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=772, Time=31744, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=773, Time=32768, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=774, Time=33792, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=775, Time=34816, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=776, Time=35840, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=777, Time=36864, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=778, Time=37888, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=779, Time=38912, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=780, Time=39936, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=781, Time=40960, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=782, Time=41984, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=783, Time=43008, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=784, Time=44032, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=785, Time=45056, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=786, Time=46080, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=787, Time=47104, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=788, Time=48128, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=789, Time=49152, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=790, Time=50176, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=791, Time=51200, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=792, Time=52224, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=793, Time=53248, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=794, Time=54272, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=795, Time=55296, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=796, Time=56320, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=797, Time=57344, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=798, Time=58368, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=799, Time=59392, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=800, Time=60416, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=801, Time=61440, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=802, Time=62464, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=803, Time=63488, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=804, Time=64512, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=805, Time=65536, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=806, Time=66560, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=807, Time=67584, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=808, Time=68608, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=809, Time=69632, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=810, Time=70656, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=811, Time=71680, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=812, Time=72704, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=813, Time=73728, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=814, Time=74752, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=815, Time=75776, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=816, Time=76800, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=817, Time=77824, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=818, Time=78848, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=819, Time=79872, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=820, Time=80896, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=821, Time=81920, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=822, Time=82944, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=823, Time=83968, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=824, Time=84992, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=825, Time=86016, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=826, Time=87040, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=827, Time=88064, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=828, Time=89088, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=829, Time=90112, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=830, Time=91136, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=831, Time=92160, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=832, Time=93184, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=833, Time=94208, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=834, Time=95232, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=835, Time=96256, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=836, Time=97280, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=837, Time=98304, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=838, Time=99328, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=839, Time=100352, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=840, Time=101376, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=841, Time=102400, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=842, Time=103424, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=843, Time=104448, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=844, Time=105472, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=845, Time=106496, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=846, Time=107520, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=847, Time=108544, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=848, Time=109568, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=849, Time=110592, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=850, Time=111616, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=851, Time=112640, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=852, Time=113664, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=853, Time=114688, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=854, Time=115712, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=855, Time=116736, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=856, Time=117760, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=857, Time=118784, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=858, Time=119808, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=859, Time=120832, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=860, Time=121856, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=861, Time=122880, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=862, Time=123904, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=863, Time=124928, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=864, Time=125952, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=865, Time=126976, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=866, Time=128000, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=867, Time=129024, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=868, Time=130048, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=869, Time=131072, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=870, Time=132096, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=871, Time=133120, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=872, Time=134144, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=873, Time=135168, Mark
+				Sent Command - Suspend - ACP SEID [2 - Audio Sink]
+				Rcvd ResponseAccept - Suspend
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Stopped
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Stopped
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Sent   +CIEV: 4,2  
+				Sent Command - Start - ACP SEID [2 - Audio Sink]
+				Rcvd Command - DelayReport(270.0 ms) - ACP SEID [2 - Audio Source]
+				Sent ResponseAccept - DelayReport
+				Rcvd ResponseAccept - Start
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E350172772000100FF 
+				Sent   +CME ERROR: 0  
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				PT=MPEG Audio, SSRC=0x2, Seq=874, Time=0, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=875, Time=1024, Mark
+				Audio Layer 1, 80 kb/s, 24 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=878, Time=4096, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=879, Time=5120, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=880, Time=6144, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=881, Time=7168, Mark
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E350172772000100FF 
+				Sent   +CME ERROR: 0  
+				PT=MPEG Audio, SSRC=0x2, Seq=882, Time=8192, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=883, Time=9216, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=884, Time=10240, Mark
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				PT=MPEG Audio, SSRC=0x2, Seq=885, Time=11264, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=886, Time=12288, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=887, Time=13312, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=888, Time=14336, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=889, Time=15360, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=890, Time=16384, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=891, Time=17408, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=892, Time=18432, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=893, Time=19456, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=894, Time=20480, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=895, Time=21504, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=896, Time=22528, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=897, Time=23552, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=898, Time=24576, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=899, Time=25600, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=900, Time=26624, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=901, Time=27648, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=902, Time=28672, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=903, Time=29696, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=904, Time=30720, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=905, Time=31744, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=906, Time=32768, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=907, Time=33792, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=908, Time=34816, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=909, Time=35840, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=910, Time=36864, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=911, Time=37888, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=912, Time=38912, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=913, Time=39936, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=914, Time=40960, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=915, Time=41984, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=916, Time=43008, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=917, Time=44032, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=918, Time=45056, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=919, Time=46080, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=920, Time=47104, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=921, Time=48128, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=922, Time=49152, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=923, Time=50176, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=924, Time=51200, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=925, Time=52224, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=926, Time=53248, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=927, Time=54272, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=928, Time=55296, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=929, Time=56320, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=930, Time=57344, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=931, Time=58368, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=932, Time=59392, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=933, Time=60416, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=934, Time=61440, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=935, Time=62464, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=936, Time=63488, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=937, Time=64512, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=938, Time=65536, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=939, Time=66560, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=940, Time=67584, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=941, Time=68608, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=942, Time=69632, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=943, Time=70656, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=944, Time=71680, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=945, Time=72704, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=946, Time=73728, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=947, Time=74752, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=948, Time=75776, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=949, Time=76800, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=950, Time=77824, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=951, Time=78848, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=952, Time=79872, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=953, Time=80896, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=954, Time=81920, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=955, Time=82944, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=956, Time=83968, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=957, Time=84992, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=958, Time=86016, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=959, Time=87040, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=960, Time=88064, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=961, Time=89088, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=962, Time=90112, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=963, Time=91136, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=964, Time=92160, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=965, Time=93184, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=966, Time=94208, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=967, Time=114688, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=968, Time=115712, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=969, Time=116736, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=970, Time=117760, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=971, Time=118784, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=972, Time=119808, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=973, Time=120832, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=974, Time=121856, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=975, Time=122880, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=976, Time=123904, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=977, Time=124928, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=978, Time=125952, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=979, Time=126976, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=980, Time=128000, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=981, Time=129024, Mark
+				Sent Command - Suspend - ACP SEID [2 - Audio Sink]
+				Rcvd ResponseAccept - Suspend
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Stopped
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277A000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Stopped
+				Sent   +CIEV: 4,3  
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Sent Command - Start - ACP SEID [2 - Audio Sink]
+				Rcvd Command - DelayReport(270.0 ms) - ACP SEID [2 - Audio Source]
+				Sent ResponseAccept - DelayReport
+				Rcvd ResponseAccept - Start
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				PT=MPEG Audio, SSRC=0x2, Seq=987, Time=0, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=988, Time=1024, Mark
+				Audio Layer 1, 128 kb/s, 48 kHz
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E350172774000100FF 
+				Sent   +CME ERROR: 0  
+				PT=MPEG Audio, SSRC=0x2, Seq=990, Time=3072, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=991, Time=4096, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=992, Time=5120, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=993, Time=6144, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=994, Time=7168, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=995, Time=8192, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=996, Time=9216, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=997, Time=10240, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=998, Time=11264, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=999, Time=12288, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1000, Time=13312, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1001, Time=14336, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1002, Time=15360, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1003, Time=16384, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1004, Time=17408, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1005, Time=18432, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1006, Time=19456, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1007, Time=20480, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1008, Time=21504, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1009, Time=22528, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1010, Time=23552, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1011, Time=24576, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1012, Time=25600, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1013, Time=26624, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1014, Time=27648, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1015, Time=28672, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1016, Time=29696, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1017, Time=30720, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1018, Time=31744, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1019, Time=32768, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1020, Time=33792, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1021, Time=34816, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1022, Time=35840, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1023, Time=36864, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1024, Time=37888, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1025, Time=38912, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1026, Time=39936, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1027, Time=40960, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1028, Time=41984, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1029, Time=43008, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1030, Time=44032, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1031, Time=45056, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1032, Time=46080, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1033, Time=47104, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1034, Time=48128, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1035, Time=49152, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1036, Time=50176, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1037, Time=51200, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1038, Time=52224, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1039, Time=53248, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1040, Time=54272, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1041, Time=55296, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1042, Time=56320, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1043, Time=57344, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1044, Time=58368, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1045, Time=59392, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1046, Time=60416, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1047, Time=61440, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1048, Time=62464, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1049, Time=63488, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1050, Time=64512, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1051, Time=65536, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1052, Time=66560, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1053, Time=67584, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1054, Time=68608, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1055, Time=69632, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1056, Time=70656, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1057, Time=71680, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1058, Time=72704, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1059, Time=73728, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1060, Time=74752, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1061, Time=75776, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1062, Time=76800, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1063, Time=77824, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1064, Time=78848, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1065, Time=79872, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1066, Time=80896, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1067, Time=81920, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1068, Time=82944, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1069, Time=83968, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1070, Time=84992, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1071, Time=86016, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1072, Time=87040, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1073, Time=88064, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1074, Time=89088, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1075, Time=90112, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1076, Time=91136, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1077, Time=92160, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1078, Time=93184, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1079, Time=94208, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1080, Time=95232, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1081, Time=96256, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1082, Time=97280, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1083, Time=98304, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1084, Time=99328, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1085, Time=100352, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1086, Time=101376, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1087, Time=102400, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1088, Time=103424, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1089, Time=104448, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1090, Time=105472, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1091, Time=106496, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1092, Time=107520, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1093, Time=108544, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1094, Time=109568, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1095, Time=110592, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1096, Time=111616, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1097, Time=112640, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1098, Time=113664, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1099, Time=114688, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1100, Time=115712, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1101, Time=116736, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1102, Time=117760, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1103, Time=118784, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1104, Time=119808, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1105, Time=120832, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1106, Time=121856, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1107, Time=122880, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1108, Time=123904, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1109, Time=124928, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1110, Time=125952, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1111, Time=126976, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1112, Time=128000, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1113, Time=129024, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1114, Time=130048, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1115, Time=131072, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1116, Time=132096, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1117, Time=133120, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1118, Time=134144, Mark
+				Sent Command - Suspend - ACP SEID [2 - Audio Sink]
+				Rcvd ResponseAccept - Suspend
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Stopped
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Stopped
+				Sent   +CIEV: 4,2  
+				Rcvd UIH Channel=3 UID 
+				Sent Command - Start - ACP SEID [2 - Audio Sink]
+				Rcvd Command - DelayReport(270.0 ms) - ACP SEID [2 - Audio Source]
+				Sent ResponseAccept - DelayReport
+				Rcvd ResponseAccept - Start
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				PT=MPEG Audio, SSRC=0x2, Seq=1119, Time=0, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1120, Time=1024, Mark
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				Audio Layer 1, 80 kb/s, 24 kHz
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E350172774000100FF 
+				Sent   +CME ERROR: 0  
+				PT=MPEG Audio, SSRC=0x2, Seq=1123, Time=4096, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1124, Time=5120, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1125, Time=6144, Mark
+				Audio Layer 1, 32 kb/s, 32 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1127, Time=8192, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1128, Time=9216, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1129, Time=10240, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1130, Time=11264, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1131, Time=12288, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1132, Time=13312, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1133, Time=14336, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1134, Time=15360, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1135, Time=16384, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1136, Time=17408, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1137, Time=18432, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1138, Time=19456, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1139, Time=20480, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1140, Time=21504, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1141, Time=22528, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1142, Time=23552, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1143, Time=24576, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1144, Time=25600, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1145, Time=26624, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1146, Time=27648, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1147, Time=28672, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1148, Time=29696, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1149, Time=30720, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1150, Time=31744, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1151, Time=32768, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1152, Time=33792, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1153, Time=34816, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1154, Time=35840, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1155, Time=36864, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1156, Time=37888, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1157, Time=38912, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1158, Time=39936, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1159, Time=40960, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1160, Time=41984, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1161, Time=43008, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1162, Time=44032, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1163, Time=45056, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1164, Time=46080, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1165, Time=47104, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1166, Time=48128, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1167, Time=49152, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1168, Time=50176, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1169, Time=51200, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1170, Time=52224, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1171, Time=53248, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1172, Time=54272, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1173, Time=55296, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1174, Time=56320, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1175, Time=57344, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1176, Time=58368, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1177, Time=59392, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1178, Time=60416, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1179, Time=61440, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1180, Time=62464, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1181, Time=63488, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1182, Time=64512, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1183, Time=65536, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1184, Time=66560, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1185, Time=67584, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1186, Time=68608, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1187, Time=69632, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1188, Time=70656, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1189, Time=71680, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1190, Time=72704, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1191, Time=73728, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1192, Time=74752, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1193, Time=75776, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1194, Time=76800, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1195, Time=77824, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1196, Time=78848, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1197, Time=79872, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1198, Time=80896, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1199, Time=81920, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1200, Time=82944, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1201, Time=83968, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1202, Time=84992, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1203, Time=86016, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1204, Time=87040, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1205, Time=88064, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1206, Time=89088, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1207, Time=90112, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1208, Time=91136, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1209, Time=92160, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1210, Time=93184, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1211, Time=94208, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1212, Time=95232, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1213, Time=96256, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1214, Time=97280, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1215, Time=98304, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1216, Time=99328, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1217, Time=100352, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1218, Time=101376, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1219, Time=102400, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1220, Time=103424, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1221, Time=104448, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1222, Time=105472, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1223, Time=106496, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1224, Time=107520, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1225, Time=108544, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1226, Time=109568, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1227, Time=110592, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1228, Time=111616, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1229, Time=112640, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1230, Time=113664, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1231, Time=114688, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1232, Time=115712, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1233, Time=116736, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1234, Time=117760, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1235, Time=118784, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1236, Time=119808, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1237, Time=120832, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1238, Time=121856, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1239, Time=122880, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1240, Time=123904, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1241, Time=124928, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1242, Time=125952, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1243, Time=126976, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1244, Time=128000, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1245, Time=129024, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1246, Time=130048, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1247, Time=131072, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1248, Time=132096, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1249, Time=133120, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1250, Time=134144, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1251, Time=135168, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1252, Time=136192, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1253, Time=137216, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1254, Time=138240, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1255, Time=139264, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1256, Time=140288, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1257, Time=141312, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1258, Time=142336, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1259, Time=143360, Mark
+				Sent Command - Suspend - ACP SEID [2 - Audio Sink]
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E350172772000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd ResponseAccept - Suspend
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Stopped
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277A000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Stopped
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Sent Command - Start - ACP SEID [2 - Audio Sink]
+				Rcvd Command - DelayReport(270.0 ms) - ACP SEID [2 - Audio Source]
+				Rcvd ResponseAccept - Start
+				Sent ResponseAccept - DelayReport
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				PT=MPEG Audio, SSRC=0x2, Seq=1260, Time=0, Mark
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				PT=MPEG Audio, SSRC=0x2, Seq=1261, Time=1024, Mark
+				Audio Layer 1, 128 kb/s, 48 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1263, Time=3072, Mark
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E350172774000100FF 
+				Sent   +CME ERROR: 0  
+				PT=MPEG Audio, SSRC=0x2, Seq=1264, Time=4096, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1265, Time=5120, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1266, Time=6144, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1267, Time=7168, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1268, Time=8192, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1269, Time=9216, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1270, Time=10240, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1271, Time=11264, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1272, Time=12288, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1273, Time=13312, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1274, Time=14336, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1275, Time=15360, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1276, Time=16384, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1277, Time=17408, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1278, Time=18432, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1279, Time=19456, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1280, Time=20480, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1281, Time=21504, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1282, Time=22528, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1283, Time=23552, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1284, Time=24576, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1285, Time=25600, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1286, Time=26624, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1287, Time=27648, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1288, Time=28672, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1289, Time=29696, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1290, Time=30720, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1291, Time=31744, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1292, Time=32768, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1293, Time=33792, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1294, Time=34816, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1295, Time=35840, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1296, Time=36864, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1297, Time=37888, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1298, Time=38912, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1299, Time=39936, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1300, Time=40960, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1301, Time=41984, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1302, Time=43008, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1303, Time=44032, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1304, Time=45056, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1305, Time=46080, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1306, Time=47104, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1307, Time=48128, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1308, Time=49152, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1309, Time=50176, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1310, Time=51200, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1311, Time=52224, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1312, Time=53248, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1313, Time=54272, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1314, Time=55296, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1315, Time=56320, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1316, Time=57344, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1317, Time=58368, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1318, Time=59392, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1319, Time=60416, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1320, Time=61440, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1321, Time=62464, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1322, Time=63488, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1323, Time=64512, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1324, Time=65536, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1325, Time=66560, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1326, Time=67584, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1327, Time=68608, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1328, Time=69632, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1329, Time=70656, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1330, Time=71680, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1331, Time=72704, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1332, Time=73728, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1333, Time=74752, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1334, Time=75776, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1335, Time=76800, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1336, Time=77824, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1337, Time=78848, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1338, Time=79872, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1339, Time=80896, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1340, Time=81920, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1341, Time=82944, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1342, Time=83968, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1343, Time=84992, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1344, Time=86016, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1345, Time=87040, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1346, Time=88064, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1347, Time=89088, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1348, Time=90112, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1349, Time=91136, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1350, Time=92160, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1351, Time=93184, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1352, Time=94208, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1353, Time=95232, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1354, Time=96256, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1355, Time=97280, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1356, Time=98304, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1357, Time=99328, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1358, Time=100352, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1359, Time=101376, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1360, Time=102400, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1361, Time=103424, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1362, Time=104448, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1363, Time=105472, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1364, Time=106496, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1365, Time=107520, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1366, Time=108544, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1367, Time=109568, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1368, Time=110592, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1369, Time=111616, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1370, Time=112640, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1371, Time=113664, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1372, Time=114688, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1373, Time=115712, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1374, Time=116736, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1375, Time=117760, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1376, Time=118784, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1377, Time=119808, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1378, Time=120832, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1379, Time=121856, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1380, Time=122880, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1381, Time=123904, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1382, Time=124928, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1383, Time=125952, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1384, Time=126976, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1385, Time=128000, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1386, Time=129024, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1387, Time=130048, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1388, Time=131072, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1389, Time=132096, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1390, Time=133120, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1391, Time=134144, Mark
+				Sent Command - Suspend - ACP SEID [2 - Audio Sink]
+				Rcvd ResponseAccept - Suspend
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Stopped
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Stopped
+				Sent Command - Start - ACP SEID [2 - Audio Sink]
+				Rcvd Command - DelayReport(270.0 ms) - ACP SEID [2 - Audio Source]
+				Sent ResponseAccept - DelayReport
+				Rcvd ResponseAccept - Start
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				PT=MPEG Audio, SSRC=0x2, Seq=1392, Time=0, Mark
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				PT=MPEG Audio, SSRC=0x2, Seq=1393, Time=1024, Mark
+				Audio Layer 1, 80 kb/s, 24 kHz
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E350172774000100FF 
+				Sent   +CME ERROR: 0  
+				PT=MPEG Audio, SSRC=0x2, Seq=1396, Time=4096, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1397, Time=5120, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1398, Time=6144, Mark
+				Audio Layer 1, 32 kb/s, 32 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1400, Time=8192, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1401, Time=9216, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1402, Time=10240, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1403, Time=11264, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1404, Time=12288, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1405, Time=13312, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1406, Time=14336, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1407, Time=15360, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1408, Time=16384, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1409, Time=17408, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1410, Time=18432, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1411, Time=19456, Mark
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E350172774000100FF 
+				Sent   +CME ERROR: 0  
+				PT=MPEG Audio, SSRC=0x2, Seq=1412, Time=20480, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1413, Time=21504, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1414, Time=22528, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1415, Time=23552, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1416, Time=24576, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1417, Time=25600, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1418, Time=26624, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1419, Time=27648, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1420, Time=28672, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1421, Time=29696, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1422, Time=30720, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1423, Time=31744, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1424, Time=32768, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1425, Time=33792, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1426, Time=34816, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1427, Time=35840, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1428, Time=36864, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1429, Time=37888, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1430, Time=38912, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1431, Time=39936, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1432, Time=40960, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1433, Time=41984, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1434, Time=43008, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1435, Time=44032, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1436, Time=45056, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1437, Time=46080, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1438, Time=47104, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1439, Time=48128, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1440, Time=49152, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1441, Time=50176, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1442, Time=51200, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1443, Time=52224, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1444, Time=53248, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1445, Time=54272, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1446, Time=55296, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1447, Time=56320, Mark
+				Sent UIH Channel=28 UID 
+				PT=MPEG Audio, SSRC=0x2, Seq=1448, Time=57344, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1449, Time=58368, Mark
+				Rcvd UIH Channel=28 UID 
+				PT=MPEG Audio, SSRC=0x2, Seq=1450, Time=59392, Mark
+				Rcvd UIH Channel=28 
+				PT=MPEG Audio, SSRC=0x2, Seq=1451, Time=60416, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1452, Time=61440, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1453, Time=62464, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1454, Time=63488, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1455, Time=64512, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1456, Time=65536, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1457, Time=66560, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1458, Time=67584, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1459, Time=68608, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1460, Time=69632, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1461, Time=70656, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1462, Time=71680, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1463, Time=72704, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1464, Time=73728, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1465, Time=74752, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1466, Time=75776, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1467, Time=76800, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1468, Time=77824, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1469, Time=78848, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1470, Time=79872, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1471, Time=80896, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1472, Time=81920, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1473, Time=82944, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1474, Time=83968, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1475, Time=84992, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1476, Time=86016, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1477, Time=87040, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1478, Time=88064, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1479, Time=89088, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1480, Time=90112, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1481, Time=91136, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1482, Time=92160, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1483, Time=93184, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1484, Time=94208, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1485, Time=95232, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1486, Time=96256, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1487, Time=97280, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1488, Time=98304, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1489, Time=99328, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1490, Time=100352, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1491, Time=101376, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1492, Time=102400, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1493, Time=103424, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1494, Time=104448, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1495, Time=105472, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1496, Time=106496, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1497, Time=107520, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1498, Time=108544, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1499, Time=109568, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1500, Time=110592, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1501, Time=111616, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1502, Time=112640, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1503, Time=113664, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1504, Time=114688, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1505, Time=115712, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1506, Time=116736, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1507, Time=117760, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1508, Time=118784, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1509, Time=119808, Mark
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				PT=MPEG Audio, SSRC=0x2, Seq=1510, Time=120832, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1511, Time=121856, Mark
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				PT=MPEG Audio, SSRC=0x2, Seq=1512, Time=122880, Mark
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				PT=MPEG Audio, SSRC=0x2, Seq=1513, Time=123904, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1514, Time=124928, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1515, Time=125952, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1516, Time=126976, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1517, Time=128000, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1518, Time=129024, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1519, Time=130048, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1520, Time=131072, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1521, Time=132096, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1522, Time=133120, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1523, Time=134144, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1524, Time=135168, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1525, Time=136192, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1526, Time=137216, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1527, Time=138240, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1528, Time=139264, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1529, Time=140288, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1530, Time=141312, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1531, Time=142336, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1532, Time=143360, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1533, Time=144384, Mark
+				Sent Command - Suspend - ACP SEID [2 - Audio Sink]
+				Rcvd ResponseAccept - Suspend
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Stopped
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277C000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Stopped
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277A000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Sent UIH Channel=28 
+				Sent UIH Channel=28 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent   +CIEV: 4,3  
+				Sent   +CIEV: 4,2  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E6464FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000376464FFE9E35017277A000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E5F64FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F3000037645FFFE9E35017277A000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd AT+BIEV=2,95 
+				Sent   OK  
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd AT+XIAOMI=1,1,110,95,100,255,233 
+				Sent   +CME ERROR: 0  
+				Rcvd UIH Channel=28 UID 
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E5F64FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F3000037645FFFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Sent   +CIEV: 4,3  
+				Rcvd UIH Channel=3 UID 
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E5F64FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F3000037645FFFE9E35017277A000100FF 
+				Sent   +CME ERROR: 0  
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E5F64FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F3000037645FFFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E5F64FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F3000037645FFFE9E35017277A000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E5F64FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F3000037645FFFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Sent Command - Start - ACP SEID [2 - Audio Sink]
+				Rcvd Command - DelayReport(270.0 ms) - ACP SEID [2 - Audio Source]
+				Sent ResponseAccept - DelayReport
+				Rcvd ResponseAccept - Start
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				PT=MPEG Audio, SSRC=0x2, Seq=1534, Time=0, Mark
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				PT=MPEG Audio, SSRC=0x2, Seq=1535, Time=1024, Mark
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E5F64FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F3000037645FFFE9E350172774000100FF 
+				Sent   +CME ERROR: 0  
+				Audio Layer 1, 128 kb/s, 48 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1537, Time=3072, Mark
+				Audio Layer 1, 192 kb/s, 44.1 kHz
+				Audio Layer 1, 224 kb/s, 32 kHz
+				Audio Layer 1, 224 kb/s, 44.1 kHz
+				Audio Layer 1, 224 kb/s, 48 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1543, Time=9216, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1544, Time=10240, Mark
+				Audio Layer 1, 160 kb/s, 32 kHz
+				Audio Layer 1, 192 kb/s, 44.1 kHz
+				Audio Layer 1, 96 kb/s, 48 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1548, Time=14336, Mark
+				Audio Layer 1, 64 kb/s, 32 kHz
+				Audio Layer 1, 96 kb/s, 44.1 kHz
+				Audio Layer 1, 128 kb/s, 32 kHz
+				Audio Layer 1, 192 kb/s, 44.1 kHz
+				Audio Layer 1, 192 kb/s, 48 kHz
+				Audio Layer 1, 224 kb/s, 44.1 kHz
+				Audio Layer 1, 192 kb/s, 44.1 kHz
+				Audio Layer 1, 160 kb/s, 32 kHz
+				Audio Layer 1, 192 kb/s, 32 kHz
+				Audio Layer 1, 224 kb/s, 48 kHz
+				Audio Layer 1, 160 kb/s, 48 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1560, Time=26624, Mark
+				Audio Layer 1, 192 kb/s, 32 kHz
+				Audio Layer 1, 224 kb/s, 32 kHz
+				Audio Layer 1, 256 kb/s, 32 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1564, Time=30720, Mark
+				Audio Layer 1, 224 kb/s, 44.1 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1566, Time=32768, Mark
+				Audio Layer 1, 224 kb/s, 32 kHz
+				Audio Layer 1, 192 kb/s, 32 kHz
+				Audio Layer 1, 192 kb/s, 48 kHz
+				Audio Layer 1, 256 kb/s, 44.1 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1571, Time=37888, Mark
+				Audio Layer 1, 192 kb/s, 32 kHz
+				Audio Layer 1, 128 kb/s, 44.1 kHz
+				Audio Layer 1, 160 kb/s, 44.1 kHz
+				Audio Layer 1, 192 kb/s, 32 kHz
+				Audio Layer 1, 96 kb/s, 32 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1577, Time=44032, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1578, Time=45056, Mark
+				Audio Layer 1, 224 kb/s, 48 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1580, Time=47104, Mark
+				Audio Layer 1, 192 kb/s, 44.1 kHz
+				Audio Layer 1, 192 kb/s, 32 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1583, Time=50176, Mark
+				Audio Layer 1, 128 kb/s, 32 kHz
+				Audio Layer 1, 128 kb/s, 44.1 kHz
+				Audio Layer 1, 160 kb/s, 32 kHz
+				Audio Layer 1, 128 kb/s, 44.1 kHz
+				Audio Layer 1, 128 kb/s, 44.1 kHz
+				Audio Layer 1, 256 kb/s, 44.1 kHz
+				Audio Layer 1, 224 kb/s, 48 kHz
+				Audio Layer 1, 192 kb/s, 48 kHz
+				Audio Layer 1, 256 kb/s, 44.1 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1594, Time=61440, Mark
+				Audio Layer 1, 192 kb/s, 48 kHz
+				Audio Layer 1, 224 kb/s, 32 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1598, Time=65536, Mark
+				Audio Layer 1, 224 kb/s, 32 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1600, Time=67584, Mark
+				Audio Layer 1, 224 kb/s, 32 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1602, Time=69632, Mark
+				Audio Layer 1, 160 kb/s, 44.1 kHz
+				Audio Layer 1, 192 kb/s, 44.1 kHz
+				Audio Layer 1, 224 kb/s, 48 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1606, Time=73728, Mark
+				Audio Layer 1, 224 kb/s, 44.1 kHz
+				Audio Layer 1, 224 kb/s, 32 kHz
+				Audio Layer 1, 160 kb/s, 48 kHz
+				Audio Layer 1, 64 kb/s, 48 kHz
+				Audio Layer 1, 64 kb/s, 44.1 kHz
+				Audio Layer 1, 96 kb/s, 44.1 kHz
+				Audio Layer 1, 64 kb/s, 48 kHz
+				Audio Layer 1, 64 kb/s, 32 kHz
+				Audio Layer 1, 128 kb/s, 48 kHz
+				Audio Layer 1, 96 kb/s, 44.1 kHz
+				Audio Layer 1, 128 kb/s, 32 kHz
+				Audio Layer 1, 64 kb/s, 32 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1621, Time=89088, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1622, Time=90112, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1623, Time=91136, Mark
+				Audio Layer 1, 64 kb/s, 44.1 kHz
+				Audio Layer 1, 64 kb/s, 44.1 kHz
+				Audio Layer 2, 16 kb/s, 22.05 kHz
+				Audio Layer 1, 64 kb/s, 48 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1629, Time=97280, Mark
+				Audio Layer 1, 32 kb/s, 44.1 kHz
+				Audio Layer 1, 64 kb/s, 44.1 kHz
+				Audio Layer 1, 96 kb/s, 32 kHz
+				Audio Layer 1, 32 kb/s, 48 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1635, Time=103424, Mark
+				Audio Layer 1, 32 kb/s, 48 kHz
+				Audio Layer 1, 64 kb/s, 44.1 kHz
+				Audio Layer 1, 64 kb/s, 32 kHz
+				Audio Layer 1, 128 kb/s, 44.1 kHz
+				Audio Layer 1, 96 kb/s, 44.1 kHz
+				Audio Layer 1, 128 kb/s, 32 kHz
+				Audio Layer 1, 256 kb/s, 44.1 kHz
+				Audio Layer 1, 192 kb/s, 48 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1644, Time=112640, Mark
+				Audio Layer 1, 128 kb/s, 48 kHz
+				Audio Layer 1, 64 kb/s, 44.1 kHz
+				Audio Layer 1, 96 kb/s, 44.1 kHz
+				Audio Layer 1, 96 kb/s, 44.1 kHz
+				Audio Layer 1, 64 kb/s, 44.1 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1653, Time=121856, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1654, Time=122880, Mark
+				Audio Layer 1, 224 kb/s, 44.1 kHz
+				Audio Layer 1, 192 kb/s, 48 kHz
+				Audio Layer 1, 192 kb/s, 48 kHz
+				Audio Layer 1, 160 kb/s, 32 kHz
+				Audio Layer 1, 192 kb/s, 44.1 kHz
+				Audio Layer 1, 192 kb/s, 44.1 kHz
+				Audio Layer 1, 160 kb/s, 44.1 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1664, Time=133120, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1665, Time=134144, Mark
+				Audio Layer 1, 160 kb/s, 44.1 kHz
+				Audio Layer 1, 256 kb/s, 32 kHz
+				Audio Layer 1, 224 kb/s, 32 kHz
+				Audio Layer 1, 192 kb/s, 48 kHz
+				Audio Layer 1, 192 kb/s, 32 kHz
+				Audio Layer 1, 128 kb/s, 44.1 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1672, Time=141312, Mark
+				Audio Layer 1, 64 kb/s, 48 kHz
+				Audio Layer 1, 160 kb/s, 32 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1675, Time=144384, Mark
+				Audio Layer 1, 192 kb/s, 44.1 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1677, Time=146432, Mark
+				Audio Layer 1, 256 kb/s, 44.1 kHz
+				Audio Layer 1, 256 kb/s, 48 kHz
+				Audio Layer 1, 192 kb/s, 44.1 kHz
+				Audio Layer 1, 256 kb/s, 32 kHz
+				Audio Layer 1, 192 kb/s, 44.1 kHz
+				Audio Layer 1, 192 kb/s, 48 kHz
+				Audio Layer 1, 224 kb/s, 32 kHz
+				Audio Layer 1, 224 kb/s, 48 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1686, Time=155648, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1687, Time=156672, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1688, Time=157696, Mark
+				Audio Layer 1, 224 kb/s, 48 kHz
+				Audio Layer 1, 256 kb/s, 44.1 kHz
+				Audio Layer 1, 256 kb/s, 44.1 kHz
+				Audio Layer 1, 224 kb/s, 32 kHz
+				Audio Layer 1, 224 kb/s, 48 kHz
+				Audio Layer 1, 192 kb/s, 44.1 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1695, Time=164864, Mark
+				Audio Layer 1, 256 kb/s, 44.1 kHz
+				Audio Layer 1, 256 kb/s, 44.1 kHz
+				Audio Layer 1, 256 kb/s, 48 kHz
+				Audio Layer 1, 224 kb/s, 32 kHz
+				Audio Layer 1, 224 kb/s, 44.1 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1702, Time=172032, Mark
+				Audio Layer 1, 192 kb/s, 32 kHz
+				Audio Layer 1, 256 kb/s, 32 kHz
+				Audio Layer 1, 256 kb/s, 48 kHz
+				Audio Layer 1, 192 kb/s, 32 kHz
+				Audio Layer 1, 192 kb/s, 48 kHz
+				Audio Layer 1, 224 kb/s, 32 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1709, Time=179200, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1710, Time=180224, Mark
+				Audio Layer 1, 192 kb/s, 32 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1712, Time=182272, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1713, Time=183296, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1714, Time=184320, Mark
+				Audio Layer 1, 224 kb/s, 48 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1717, Time=187392, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1718, Time=188416, Mark
+				Audio Layer 1, 160 kb/s, 32 kHz
+				Audio Layer 1, 128 kb/s, 48 kHz
+				Audio Layer 1, 128 kb/s, 32 kHz
+				Audio Layer 1, 128 kb/s, 32 kHz
+				Audio Layer 1, 96 kb/s, 48 kHz
+				Audio Layer 1, 128 kb/s, 48 kHz
+				Audio Layer 1, 160 kb/s, 48 kHz
+				Audio Layer 1, 160 kb/s, 44.1 kHz
+				Audio Layer 1, 96 kb/s, 44.1 kHz
+				Audio Layer 1, 160 kb/s, 44.1 kHz
+				Audio Layer 1, 128 kb/s, 32 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1730, Time=200704, Mark
+				Audio Layer 1, 192 kb/s, 44.1 kHz
+				Audio Layer 1, 128 kb/s, 48 kHz
+				Audio Layer 1, 96 kb/s, 32 kHz
+				Audio Layer 1, 96 kb/s, 32 kHz
+				Audio Layer 1, 128 kb/s, 32 kHz
+				Audio Layer 1, 160 kb/s, 48 kHz
+				Audio Layer 1, 96 kb/s, 32 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1738, Time=208896, Mark
+				Audio Layer 1, 64 kb/s, 48 kHz
+				Audio Layer 1, 192 kb/s, 32 kHz
+				Audio Layer 1, 192 kb/s, 48 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1742, Time=212992, Mark
+				Audio Layer 1, 224 kb/s, 44.1 kHz
+				Audio Layer 1, 192 kb/s, 48 kHz
+				Audio Layer 1, 96 kb/s, 32 kHz
+				Audio Layer 1, 96 kb/s, 44.1 kHz
+				Audio Layer 1, 64 kb/s, 48 kHz
+				Audio Layer 1, 96 kb/s, 48 kHz
+				Audio Layer 1, 96 kb/s, 44.1 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1751, Time=222208, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1752, Time=223232, Mark
+				Audio Layer 1, 192 kb/s, 32 kHz
+				Audio Layer 1, 256 kb/s, 32 kHz
+				Audio Layer 1, 256 kb/s, 32 kHz
+				Audio Layer 1, 192 kb/s, 44.1 kHz
+				Audio Layer 1, 96 kb/s, 32 kHz
+				Audio Layer 1, 32 kb/s, 32 kHz
+				Audio Layer 1, 128 kb/s, 44.1 kHz
+				Audio Layer 1, 96 kb/s, 32 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1761, Time=232448, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1762, Time=233472, Mark
+				Audio Layer 1, 32 kb/s, 48 kHz
+				Audio Layer 1, 192 kb/s, 44.1 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1765, Time=236544, Mark
+				Audio Layer 1, 224 kb/s, 32 kHz
+				Audio Layer 1, 160 kb/s, 48 kHz
+				Audio Layer 1, 224 kb/s, 48 kHz
+				Audio Layer 1, 160 kb/s, 48 kHz
+				Audio Layer 1, 96 kb/s, 48 kHz
+				Audio Layer 1, 64 kb/s, 44.1 kHz
+				Audio Layer 1, 64 kb/s, 32 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1774, Time=245760, Mark
+				Audio Layer 1, 64 kb/s, 48 kHz
+				Audio Layer 1, 64 kb/s, 32 kHz
+				Audio Layer 1, 224 kb/s, 44.1 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1778, Time=249856, Mark
+				Audio Layer 1, 128 kb/s, 44.1 kHz
+				Audio Layer 1, 192 kb/s, 44.1 kHz
+				Audio Layer 1, 192 kb/s, 44.1 kHz
+				Audio Layer 1, 96 kb/s, 48 kHz
+				Audio Layer 1, 64 kb/s, 32 kHz
+				Audio Layer 1, 192 kb/s, 48 kHz
+				Audio Layer 1, 64 kb/s, 32 kHz
+				Audio Layer 1, 64 kb/s, 32 kHz
+				Audio Layer 1, 32 kb/s, 44.1 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1790, Time=262144, Mark
+				Audio Layer 1, 160 kb/s, 32 kHz
+				Audio Layer 1, 128 kb/s, 32 kHz
+				Audio Layer 1, 128 kb/s, 48 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1794, Time=266240, Mark
+				Audio Layer 1, 32 kb/s, 44.1 kHz
+				Audio Layer 1, 64 kb/s, 32 kHz
+				Audio Layer 1, 64 kb/s, 48 kHz
+				Audio Layer 1, 96 kb/s, 48 kHz
+				Audio Layer 1, 64 kb/s, 32 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1800, Time=272384, Mark
+				Audio Layer 1, 128 kb/s, 48 kHz
+				Audio Layer 1, 192 kb/s, 48 kHz
+				Audio Layer 1, 224 kb/s, 32 kHz
+				Audio Layer 1, 160 kb/s, 48 kHz
+				Audio Layer 1, 160 kb/s, 44.1 kHz
+				Audio Layer 1, 96 kb/s, 48 kHz
+				Audio Layer 1, 32 kb/s, 32 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1808, Time=280576, Mark
+				Audio Layer 1, 32 kb/s, 32 kHz
+				Audio Layer 1, 32 kb/s, 32 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1811, Time=283648, Mark
+				Audio Layer 1, 64 kb/s, 48 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1813, Time=285696, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1814, Time=286720, Mark
+				Audio Layer 1, 128 kb/s, 32 kHz
+				Audio Layer 1, 96 kb/s, 32 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1817, Time=289792, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1818, Time=290816, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1819, Time=291840, Mark
+				Audio Layer 1, 96 kb/s, 32 kHz
+				Audio Layer 1, 96 kb/s, 44.1 kHz
+				Rcvd UIH Channel=28 
+				PT=MPEG Audio, SSRC=0x2, Seq=1822, Time=294912, Mark
+				Sent UIH Channel=28 UID 
+				PT=MPEG Audio, SSRC=0x2, Seq=1823, Time=295936, Mark
+				Audio Layer 3, 16 kb/s, 22.05 kHz
+				Rcvd UIH Channel=28 UID 
+				PT=MPEG Audio, SSRC=0x2, Seq=1825, Time=297984, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1826, Time=299008, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1827, Time=300032, Mark
+				Audio Layer 1, 64 kb/s, 44.1 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1829, Time=302080, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1830, Time=303104, Mark
+				Audio Layer 3, 16 kb/s, 11.025 kHz
+				Audio Layer 2, 16 kb/s, 22.05 kHz
+				Audio Layer 1, 64 kb/s, 44.1 kHz
+				Audio Layer 1, 32 kb/s, 44.1 kHz
+				Audio Layer 1, 48 kb/s, 22.05 kHz
+				Audio Layer 1, 48 kb/s, 22.05 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=1837, Time=310272, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1838, Time=311296, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1839, Time=312320, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1840, Time=313344, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1841, Time=314368, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1842, Time=315392, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1843, Time=316416, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1844, Time=317440, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1845, Time=318464, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1846, Time=319488, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1847, Time=320512, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1848, Time=321536, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1849, Time=322560, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1850, Time=323584, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1851, Time=324608, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1852, Time=325632, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1853, Time=326656, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1854, Time=327680, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1855, Time=328704, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1856, Time=329728, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1857, Time=330752, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1858, Time=331776, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1859, Time=332800, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1860, Time=333824, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1861, Time=334848, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1862, Time=335872, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1863, Time=336896, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1864, Time=337920, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1865, Time=338944, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1866, Time=339968, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1867, Time=340992, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1868, Time=342016, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1869, Time=343040, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1870, Time=344064, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1871, Time=345088, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1872, Time=346112, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1873, Time=347136, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1874, Time=348160, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1875, Time=349184, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1876, Time=350208, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1877, Time=351232, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1878, Time=352256, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1879, Time=353280, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1880, Time=354304, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1881, Time=355328, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1882, Time=356352, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1883, Time=357376, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1884, Time=358400, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1885, Time=359424, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1886, Time=360448, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1887, Time=361472, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1888, Time=362496, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1889, Time=363520, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1890, Time=364544, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1891, Time=365568, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1892, Time=366592, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1893, Time=367616, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1894, Time=368640, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1895, Time=369664, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1896, Time=370688, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1897, Time=371712, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1898, Time=372736, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1899, Time=373760, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1900, Time=374784, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1901, Time=375808, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1902, Time=376832, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1903, Time=377856, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1904, Time=378880, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1905, Time=379904, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1906, Time=380928, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1907, Time=381952, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1908, Time=382976, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1909, Time=384000, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1910, Time=385024, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1911, Time=386048, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1912, Time=387072, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1913, Time=388096, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1914, Time=389120, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1915, Time=390144, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1916, Time=391168, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1917, Time=392192, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1918, Time=393216, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1919, Time=394240, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1920, Time=395264, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1921, Time=396288, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1922, Time=397312, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1923, Time=398336, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1924, Time=399360, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1925, Time=400384, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1926, Time=401408, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1927, Time=402432, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1928, Time=403456, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1929, Time=404480, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1930, Time=405504, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1931, Time=406528, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1932, Time=407552, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1933, Time=408576, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1934, Time=409600, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1935, Time=410624, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1936, Time=411648, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1937, Time=412672, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1938, Time=413696, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1939, Time=414720, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1940, Time=415744, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1941, Time=416768, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1942, Time=417792, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1943, Time=418816, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1944, Time=419840, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1945, Time=420864, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1946, Time=421888, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1947, Time=422912, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1948, Time=423936, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1949, Time=424960, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1950, Time=425984, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1951, Time=427008, Mark
+				Sent Command - Suspend - ACP SEID [2 - Audio Sink]
+				Rcvd ResponseAccept - Suspend
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Stopped
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Stopped
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E5F64FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F3000037645FFFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E5F64FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F3000037645FFFE9E35017277A000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E5F64FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F3000037645FFFE9E35017277E000100FF 
+				Sent   +CME ERROR: 0  
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E5F64FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F3000037645FFFE9E350172776000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent Command - Start - ACP SEID [2 - Audio Sink]
+				Rcvd Command - DelayReport(270.0 ms) - ACP SEID [2 - Audio Source]
+				Sent ResponseAccept - DelayReport
+				Rcvd ResponseAccept - Start
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				PT=MPEG Audio, SSRC=0x2, Seq=1952, Time=0, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1953, Time=1024, Mark
+				Audio Layer 1, 128 kb/s, 48 kHz
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E5F64FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F3000037645FFFE9E350172774000100FF 
+				Sent   +CME ERROR: 0  
+				PT=MPEG Audio, SSRC=0x2, Seq=1955, Time=3072, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1956, Time=4096, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1957, Time=5120, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1958, Time=6144, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1959, Time=7168, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1960, Time=8192, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1961, Time=9216, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1962, Time=10240, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1963, Time=11264, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1964, Time=12288, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1965, Time=13312, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1966, Time=14336, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1967, Time=15360, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1968, Time=16384, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1969, Time=17408, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1970, Time=18432, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1971, Time=19456, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1972, Time=20480, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1973, Time=21504, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1974, Time=22528, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1975, Time=23552, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1976, Time=24576, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1977, Time=25600, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1978, Time=26624, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1979, Time=27648, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1980, Time=28672, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1981, Time=29696, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1982, Time=30720, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1983, Time=31744, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1984, Time=32768, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1985, Time=33792, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1986, Time=34816, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1987, Time=35840, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1988, Time=36864, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1989, Time=37888, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1990, Time=38912, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1991, Time=39936, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1992, Time=40960, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1993, Time=41984, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1994, Time=43008, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1995, Time=44032, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1996, Time=45056, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1997, Time=46080, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1998, Time=47104, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=1999, Time=48128, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2000, Time=49152, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2001, Time=50176, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2002, Time=51200, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2003, Time=52224, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2004, Time=53248, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2005, Time=54272, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2006, Time=55296, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2007, Time=56320, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2008, Time=57344, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2009, Time=58368, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2010, Time=59392, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2011, Time=60416, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2012, Time=61440, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2013, Time=62464, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2014, Time=63488, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2015, Time=64512, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2016, Time=65536, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2017, Time=66560, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2018, Time=67584, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2019, Time=68608, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2020, Time=69632, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2021, Time=70656, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2022, Time=71680, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2023, Time=72704, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2024, Time=73728, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2025, Time=74752, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2026, Time=75776, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2027, Time=76800, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2028, Time=77824, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2029, Time=78848, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2030, Time=79872, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2031, Time=80896, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2032, Time=81920, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2033, Time=82944, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2034, Time=83968, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2035, Time=84992, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2036, Time=86016, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2037, Time=87040, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2038, Time=88064, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2039, Time=89088, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2040, Time=90112, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2041, Time=91136, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2042, Time=92160, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2043, Time=93184, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2044, Time=94208, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2045, Time=95232, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2046, Time=96256, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2047, Time=97280, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2048, Time=98304, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2049, Time=99328, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2050, Time=100352, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2051, Time=101376, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2052, Time=102400, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2053, Time=103424, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2054, Time=104448, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2055, Time=105472, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2056, Time=106496, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2057, Time=107520, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2058, Time=108544, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2059, Time=109568, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2060, Time=110592, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2061, Time=111616, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2062, Time=112640, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2063, Time=113664, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2064, Time=114688, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2065, Time=115712, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2066, Time=116736, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2067, Time=117760, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2068, Time=118784, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2069, Time=119808, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2070, Time=120832, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2071, Time=121856, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2072, Time=122880, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2073, Time=123904, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2074, Time=124928, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2075, Time=125952, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2076, Time=126976, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2077, Time=128000, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2078, Time=129024, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2079, Time=130048, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2080, Time=131072, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2081, Time=132096, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2082, Time=133120, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2083, Time=134144, Mark
+				Sent Command - Suspend - ACP SEID [2 - Audio Sink]
+				Rcvd ResponseAccept - Suspend
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Stopped
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Stopped
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E5F64FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F3000037645FFFE9E350172776000100FF 
+				Sent   +CME ERROR: 0  
+				Sent Connection Request (SDP, SCID: 0x007a)
+				Rcvd Connection Response - Success (SCID: 0x007a, DCID: 0x2020)
+				Sent Configure Request (DCID: 0x2020)
+				Rcvd Configure Response - Success (SCID: 0x007a)
+				Rcvd Configure Request (DCID: 0x007a)
+				Sent Configure Response - Success (SCID: 0x2020)
+				Sent Service Search Attribute Request : PnP Information: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response 
+				Sent Disconnection Request (SCID: 0x007a, DCID: 0x2020, PSM: 0x0001, Service: PnP Information)
+				Rcvd Disconnection Response (SCID: 0x007a, DCID: 0x2020, PSM: 0x0001, Service: PnP Information)
+				Sent Connection Request (SDP, SCID: 0x007b)
+				Rcvd Connection Response - Success (SCID: 0x007b, DCID: 0x2023)
+				Sent Configure Request (DCID: 0x2023)
+				Rcvd Configure Response - Success (SCID: 0x007b)
+				Rcvd Configure Request (DCID: 0x007b)
+				Sent Configure Response - Success (SCID: 0x2023)
+				Sent Service Search Attribute Request : L2CAP: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response (fragment)
+				Sent Service Search Attribute Request : L2CAP: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response (fragment)
+				Sent Service Search Attribute Request : L2CAP: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response (fragment)
+				Sent Service Search Attribute Request : L2CAP: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response (fragment)
+				Sent Service Search Attribute Request : L2CAP: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response (fragment)
+				Sent Service Search Attribute Request : L2CAP: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response (fragment)
+				Sent Service Search Attribute Request : L2CAP: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response (fragment)
+				Sent Service Search Attribute Request : L2CAP: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response (fragment)
+				Sent Service Search Attribute Request : L2CAP: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response (fragment)
+				Sent Service Search Attribute Request : L2CAP: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response (fragment)
+				Sent Service Search Attribute Request : L2CAP: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response (fragment)
+				Sent Service Search Attribute Request : L2CAP: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response 
+				Sent Service Search Attribute Request : Phonebook Access Client: Attribute Range (0x0000 - 0xffff) 
+				Rcvd Service Search Attribute Response 
+				Sent Disconnection Request (SCID: 0x007b, DCID: 0x2023, PSM: 0x0001, Service: PnP Information)
+				Rcvd Disconnection Response (SCID: 0x007b, DCID: 0x2023, PSM: 0x0001, Service: PnP Information)
+				Sent   +CIEV: 4,2  
+				Sent UIH Channel=28 UID 
+				Sent Command - Start - ACP SEID [2 - Audio Sink]
+				Rcvd UIH Channel=28 UID 
+				Rcvd Command - DelayReport(270.0 ms) - ACP SEID [2 - Audio Source]
+				Sent ResponseAccept - DelayReport
+				Rcvd ResponseAccept - Start
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				Rcvd UIH Channel=28 
+				PT=MPEG Audio, SSRC=0x2, Seq=2084, Time=0, Mark
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Playing
+				PT=MPEG Audio, SSRC=0x2, Seq=2085, Time=1024, Mark
+				Audio Layer 1, 80 kb/s, 24 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=2088, Time=4096, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2089, Time=5120, Mark
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E5F64FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F3000037645FFFE9E350172774000100FF 
+				Sent   +CME ERROR: 0  
+				PT=MPEG Audio, SSRC=0x2, Seq=2090, Time=6144, Mark
+				Audio Layer 1, 32 kb/s, 32 kHz
+				PT=MPEG Audio, SSRC=0x2, Seq=2092, Time=8192, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2093, Time=9216, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2094, Time=10240, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2095, Time=11264, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2096, Time=12288, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2097, Time=13312, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2098, Time=14336, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2099, Time=15360, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2100, Time=16384, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2101, Time=17408, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2102, Time=18432, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2103, Time=19456, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2104, Time=20480, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2105, Time=21504, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2106, Time=22528, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2107, Time=23552, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2108, Time=24576, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2109, Time=25600, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2110, Time=26624, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2111, Time=27648, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2112, Time=28672, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2113, Time=29696, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2114, Time=30720, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2115, Time=31744, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2116, Time=32768, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2117, Time=33792, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2118, Time=34816, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2119, Time=35840, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2120, Time=36864, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2121, Time=37888, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2122, Time=38912, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2123, Time=39936, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2124, Time=40960, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2125, Time=41984, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2126, Time=43008, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2127, Time=44032, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2128, Time=45056, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2129, Time=46080, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2130, Time=47104, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2131, Time=48128, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2132, Time=49152, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2133, Time=50176, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2134, Time=51200, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2135, Time=52224, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2136, Time=53248, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2137, Time=54272, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2138, Time=55296, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2139, Time=56320, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2140, Time=57344, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2141, Time=58368, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2142, Time=59392, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2143, Time=60416, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2144, Time=61440, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2145, Time=62464, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2146, Time=63488, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2147, Time=64512, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2148, Time=65536, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2149, Time=66560, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2150, Time=67584, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2151, Time=68608, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2152, Time=69632, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2153, Time=70656, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2154, Time=71680, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2155, Time=72704, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2156, Time=73728, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2157, Time=74752, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2158, Time=75776, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2159, Time=76800, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2160, Time=77824, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2161, Time=78848, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2162, Time=79872, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2163, Time=80896, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2164, Time=81920, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2165, Time=82944, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2166, Time=83968, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2167, Time=84992, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2168, Time=86016, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2169, Time=87040, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2170, Time=88064, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2171, Time=89088, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2172, Time=90112, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2173, Time=91136, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2174, Time=92160, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2175, Time=93184, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2176, Time=94208, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2177, Time=95232, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2178, Time=96256, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2179, Time=97280, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2180, Time=98304, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2181, Time=99328, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2182, Time=100352, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2183, Time=101376, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2184, Time=102400, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2185, Time=103424, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2186, Time=104448, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2187, Time=105472, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2188, Time=106496, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2189, Time=107520, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2190, Time=108544, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2191, Time=109568, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2192, Time=110592, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2193, Time=111616, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2194, Time=112640, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2195, Time=113664, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2196, Time=114688, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2197, Time=115712, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2198, Time=116736, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2199, Time=117760, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2200, Time=118784, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2201, Time=119808, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2202, Time=120832, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2203, Time=121856, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2204, Time=122880, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2205, Time=123904, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2206, Time=124928, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2207, Time=125952, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2208, Time=126976, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2209, Time=128000, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2210, Time=129024, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2211, Time=130048, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2212, Time=131072, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2213, Time=132096, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2214, Time=133120, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2215, Time=134144, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2216, Time=135168, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2217, Time=136192, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2218, Time=137216, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2219, Time=138240, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2220, Time=139264, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2221, Time=140288, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2222, Time=141312, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2223, Time=142336, Mark
+				PT=MPEG Audio, SSRC=0x2, Seq=2224, Time=143360, Mark
+				Sent Command - Suspend - ACP SEID [2 - Audio Sink]
+				Rcvd ResponseAccept - Suspend
+				Sent Vendor dependent: Changed - RegisterNotification - PlaybackStatusChanged - PlayStatus: Stopped
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E5F64FF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F3000037645FFFE9E350172776000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd Vendor dependent: Notify - RegisterNotification - PlaybackStatusChanged
+				Sent Vendor dependent: Interim - RegisterNotification - PlaybackStatusChanged - PlayStatus: Stopped
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent   +CIEV: 4,3  
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent   +CIEV: 4,2  
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Sent UIH Channel=28 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd UIH Channel=28 UID 
+				Sent   +CIEV: 4,3  
+				Sent   +CIEV: 4,2  
+				Sent   +CIEV: 4,3  
+				Sent   +CIEV: 4,2  
+				Rcvd UIH Channel=3 UID 
+				Rcvd AT+XIAOMI=FF010201023F0302011A1BFF8F03160137A06E5F5FFF00000053B884D0D7F3E953B884D0D7F302011A1B162DFD010142003E07D0D7F30000375F5FFFE9E350172776000100FF 
+				Sent   +CME ERROR: 0  
+				Rcvd UIH Channel=28 
+				Sent UIH Channel=28 UID 
+				Rcvd AT+XIAOMI=1,1,110,95,95,255,233 
+				Sent   +CME ERROR: 0  
+				Rcvd UIH Channel=28 UID 
