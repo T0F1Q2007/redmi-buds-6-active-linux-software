@@ -1,144 +1,172 @@
-# Redmi Buds 6 Active Telemetry and Control Suite for Linux and GNOME Shell
-
-A native GNOME Shell extension and companion asynchronous D-Bus daemon engineered to intercept, decode, and render real-time battery telemetry and charging metrics for Xiaomi Redmi Buds 6 Active hardware on Linux systems.
-
----
-
-## Abstract and System Architecture
-
-While traditional desktop Bluetooth audio stacks (BlueZ, PulseAudio, and PipeWire) manage A2DP audio streaming and AVRCP media controls, they frequently lack support for proprietary or vendor-extended battery telemetry frames emitted by budget and mid-tier True Wireless Stereo (TWS) headsets.
-
-The Xiaomi Redmi Buds 6 Active hardware broadcasts battery state indicators over non-connectable Bluetooth Low Energy (BLE) advertisement packets structured according to the Google Fast Pair Service (GFPS) specification (`0xFE2C`).
-
-This software suite provides an end-to-end integration stack:
+# Redmi Buds 6 Active Linux Telemetry Suite
 
 ```
-+-----------------------------------------------------------------------+
-|                    Redmi Buds 6 Active Hardware                       |
-|               (Left Earbud, Right Earbud, Charging Case)              |
-+-----------------------------------^-----------------------------------+
-                                    |
-            BLE GAP Non-Connectable Advertisements (UUID 0xFE2C)
-                                    |
-+-----------------------------------v-----------------------------------+
-|               Asynchronous Python Telemetry Service                   |
-|                        (redmibuds-daemon.py)                          |
-|  - Bleak asynchronous BLE advertisement scanner                       |
-|  - Single-task cancellable silence watchdog (10s auto-decay)          |
-|  - Bitwise payload parsing (0x80 charging bit, 0x7F level mask)       |
-+-----------------------------------^-----------------------------------+
-                                    |
-                D-Bus IPC Session Bus (org.redmibuds.Battery)
-                                    |
-+-----------------------------------v-----------------------------------+
-|                    GNOME Shell Top Panel Extension                    |
-|                      (redmibuds-battery@istisu)                       |
-|  - PanelMenu.Button status display (L, R, C telemetry)               |
-|  - Asynchronous property query and BatteryChanged signal subscription |
-|  - Dynamic panel item visibility based on device presence             |
-+-----------------------------------------------------------------------+
+  [LEFT EARBUD]          [CHARGING CRADLE]         [RIGHT EARBUD]
+     ( L: 85% )             ( C: 100% )               ( R: 90% )
+         |                       |                        |
+         +-----------------------+------------------------+
+                                 |
+              BLE GAP Advertisements (UUID: 0xFE2C)
+                                 v
+                     [Linux Desktop Panel UI]
+```
+
+[![GNOME Version](https://img.shields.io/badge/GNOME%20Shell-45%20--%2050-blue.svg?style=flat-square)](#)
+[![Protocol](https://img.shields.io/badge/Protocol-Google%20Fast%20Pair%20(GFPS)-cyan.svg?style=flat-square)](#)
+[![D-Bus Interface](https://img.shields.io/badge/IPC-org.redmibuds.Battery-yellow.svg?style=flat-square)](#)
+[![Backend](https://img.shields.io/badge/Daemon-Python%20Bleak%20%2F%20dasbus-blueviolet.svg?style=flat-square)](#)
+[![License](https://img.shields.io/badge/License-GPL--3.0-green.svg?style=flat-square)](#)
+
+---
+
+## 1. Protocol Architecture & Reverse-Engineered Packet Specification
+
+The Xiaomi Redmi Buds 6 Active hardware transmits transducer power reserves and charging circuit telemetry across Bluetooth Low Energy (BLE) non-connectable undirected advertisements adhering to the Google Fast Pair Service (GFPS) specification (`0xFE2C`).
+
+### 1.1 15-Byte Binary Service Payload Wire Format
+
+```
+  Byte Index:
+  0x00      0x01      0x02      0x03               0x0B      0x0C      0x0D      0x0E
+ +---------+---------+---------+------------------+---------+---------+---------+---------+
+ |       Model ID (3B)         |      Salt / Encrypted State |  LEFT   |  RIGHT  |  CASE   |
+ |       [ 0x00FE2C ]          |         [ 9 Bytes ]         | BATTERY | BATTERY | BATTERY |
+ +---------+---------+---------+------------------+---------+---------+---------+---------+
+                                                             |         |         |
+                                                             |         |         +-- Byte 14
+                                                             |         +------------ Byte 13
+                                                             +---------------------- Byte 12
+```
+
+### 1.2 Bitfield Decomposition Logic
+
+Each individual battery byte $B \in \{\text{Byte 12}, \text{Byte 13}, \text{Byte 14}\}$ encodes both the charging connection state and the battery level:
+
+```
+  Bit 7 (MSB)                                               Bit 0 (LSB)
+ +-----------------------+---------------------------------------------+
+ |   CHARGING FLAG (1b)  |          STATE OF CHARGE (0 - 100%) (7b)    |
+ |  0: Discharging       |           Bitmask: 0x7F                     |
+ |  1: Active Charging   |                                             |
+ +-----------------------+---------------------------------------------+
+```
+
+* **Presence Detection**: If $B = \text{0xFF}$, the peripheral is absent from the cradle or turned off $\rightarrow$ decoded as metric `-1` (`absent`).
+* **Level Extraction**: $\text{Level} = B \ \& \ \text{0x7F}$.
+* **Charging Extraction**: $\text{IsCharging} = (B \ \& \ \text{0x80}) \neq 0$.
+
+---
+
+## 2. Multi-Tiered Process & IPC Architecture
+
+```
++-------------------------------------------------------------+
+|               Hardware Bluetooth Controller                 |
+|               (hci0 / BlueZ Linux Subsystem)                |
++------------------------------+------------------------------+
+                               |
+                               | HCI BLE LeScan Events
+                               v
++-------------------------------------------------------------+
+|             Python Asynchronous Background Daemon           |
+|                     (redmibuds-daemon.py)                   |
+|                                                             |
+|  +------------------------+    +-------------------------+  |
+|  | BleakScanner Loop      |    | Cancellable Watchdog    |  |
+|  | Suffix Filtering       |    | 10s Silence Auto-Decay  |  |
+|  +------------------------+    +-------------------------+  |
+|                               |                             |
+|  +-------------------------------------------------------+  |
+|  | dasbus GObject Interface (org.redmibuds.Battery)      |  |
+|  +-------------------------------------------------------+  |
++------------------------------+------------------------------+
+                               |
+                               | D-Bus Signal (BatteryChanged) & Property Reads
+                               v
++-------------------------------------------------------------+
+|               GNOME Shell Desktop Extension                 |
+|                 (redmibuds-battery@istisu)                  |
+|                                                             |
+|  - St.BoxLayout Panel Widget (L:XX% * R:XX% * C:XX%)        |
+|  - Automatic Panel Visibility Toggling                      |
+|  - Dropdown Details Menu with Real-time Status              |
++-------------------------------------------------------------+
 ```
 
 ---
 
-## Protocol Specification and Payload Parsing
+## 3. D-Bus Service and Introspection Specification
 
-Battery status packets are encapsulated within the Service Data field of BLE GAP advertisement frames corresponding to UUID `0000fe2c-0000-1000-8000-00805f9b34fb`.
+The service registers on the D-Bus session bus with the following properties:
 
-### Binary Frame Decomposition
-
-The payload spans 15 octets. Octets 12, 13, and 14 represent the discrete battery readings:
-
-| Octet Index | Target Component | Bitmask Logic | Representation |
-|---|---|---|---|
-| `12` | Left Transducer | `data[12] & 0x7F` / `data[12] & 0x80` | Integer level (0-100%) and boolean charging state |
-| `13` | Right Transducer | `data[13] & 0x7F` / `data[13] & 0x80` | Integer level (0-100%) and boolean charging state |
-| `14` | Charging Cradle | `data[14] & 0x7F` / `data[14] & 0x80` | Integer level (0-100%) and boolean charging state |
-
-When an element possesses the value `0xFF`, it indicates the component is absent, uncoupled, or powered down, in which case the daemon maps the state to `-1` (`absent`).
-
----
-
-## D-Bus IPC Interface Specification
-
-The daemon exports the following interface across the session bus:
-
-* **Service Name**: `org.redmibuds.Battery`
-* **Object Path**: `/org/redmibuds/Battery`
-* **Interface**: `org.redmibuds.Battery`
-
-### Properties
-
-| Property Identifier | D-Bus Type | Description |
-|---|---|---|
-| `Left` | `i` (Int32) | Left earbud state of charge percentage (-1 if absent) |
-| `Right` | `i` (Int32) | Right earbud state of charge percentage (-1 if absent) |
-| `Case` | `i` (Int32) | Charging case state of charge percentage (-1 if absent) |
-| `LeftCharging` | `b` (Boolean) | Active charging state of left earbud |
-| `RightCharging` | `b` (Boolean) | Active charging state of right earbud |
-| `CaseCharging` | `b` (Boolean) | Active charging state of charging case |
-
-### Signals
-
-* **`BatteryChanged()`**: Emitted when any state-of-charge metric or charging state flag transitions.
+```xml
+<node>
+  <interface name="org.redmibuds.Battery">
+    <property name="Left"          type="i" access="read"/>
+    <property name="Right"         type="i" access="read"/>
+    <property name="Case"          type="i" access="read"/>
+    <property name="LeftCharging"  type="b" access="read"/>
+    <property name="RightCharging" type="b" access="read"/>
+    <property name="CaseCharging"  type="b" access="read"/>
+    <signal name="BatteryChanged"/>
+  </interface>
+</node>
+```
 
 ---
 
-## Prerequisites and Installation
+## 4. Software Deployment and Configuration
 
-### 1. Dependencies
-
-Ensure Python 3, BlueZ, Bleak, and dasbus are installed:
+### 4.1 System Prerequisites
 
 ```bash
 # Arch Linux
 sudo pacman -S python-bleak python-dasbus bluez bluez-utils
 
-# Debian / Ubuntu
+# Debian / Ubuntu / Mint
 sudo apt install python3-bleak python3-dasbus bluez
 ```
 
-### 2. Extension Installation
-
-Deploy the GNOME Shell extension module:
+### 4.2 Extension Installation
 
 ```bash
 mkdir -p ~/.local/share/gnome-shell/extensions/redmibuds-battery@istisu
 cp -r redmibuds-battery@istisu/* ~/.local/share/gnome-shell/extensions/redmibuds-battery@istisu/
 cp redmibuds-daemon.py ~/.local/share/gnome-shell/extensions/redmibuds-battery@istisu/
+
+gnome-extensions enable redmibuds-battery@istisu
 ```
 
-### 3. systemd User Service Deployment
+### 4.3 systemd User Service Deployment
 
-Configure the background daemon to launch automatically upon user login:
+Enable the background service to start automatically on login:
 
 ```bash
-mkdir -p ~/.config/systemd/user/
+mkdir -p ~/.config/systemd/user
 cp redmibuds-battery.service ~/.config/systemd/user/
 systemctl --user daemon-reload
 systemctl --user enable --now redmibuds-battery.service
 ```
 
-### 4. Enable Extension
-
-Activate the extension in GNOME Shell:
-
-```bash
-gnome-extensions enable redmibuds-battery@istisu
-```
-
 ---
 
-## Manual Execution and Configuration
+## 5. Command-Line Reference
 
-The daemon can also be invoked directly from the command line with custom MAC filtering:
+The daemon supports optional target MAC address configuration:
 
 ```bash
 python3 redmibuds-daemon.py --mac "14:6C:27:2C:CF:8D"
 ```
 
+Or via environment variable:
+
+```bash
+export REDMI_BUDS_MAC="14:6C:27:2C:CF:8D"
+python3 redmibuds-daemon.py
+```
+
 ---
 
-## License
+## 6. License
 
-This software is distributed under the terms of the GNU General Public License v3.0 (GPL-3.0).
+Distributed under the terms of the GNU General Public License v3.0 (GPL-3.0).
