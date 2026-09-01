@@ -1,0 +1,24 @@
+.redmibuds-panel-box {
+    spacing: 4px;
+}
+
+.redmibuds-label {
+    font-size: 11px;
+    padding: 0 2px;
+}
+
+.redmibuds-charging {
+    color: #78e08f;
+}
+
+.redmibuds-low {
+    color: #e55039;
+}
+
+.redmibuds-medium {
+    color: #f39c12;
+}
+
+.redmibuds-normal {
+    color: #ffffff;
+}

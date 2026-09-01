@@ -1,0 +1,12 @@
+[Unit]
+Description=Redmi Buds 6 Active Battery Telemetry Daemon
+After=bluetooth.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 %h/.local/share/gnome-shell/extensions/redmibuds-battery@istisu/redmibuds-daemon.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target

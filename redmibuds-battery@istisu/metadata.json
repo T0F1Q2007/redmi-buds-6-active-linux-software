@@ -1,0 +1,8 @@
+{
+  "uuid": "redmibuds-battery@istisu",
+  "name": "Redmi Buds 6 Active Battery",
+  "description": "Displays left, right and case battery levels for Redmi Buds 6 Active in the GNOME panel.",
+  "version": 1,
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "url": ""
+}
