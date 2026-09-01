@@ -135,7 +135,7 @@ class RedmiBudsIndicator extends PanelMenu.Button {
             console.error(`[RedmiBuds] Proxy creation failed: ${e.message}`);
             this._scheduleRetry();
         }
-    },
+    }
 
     // Reset all labels to '--' without waiting for a D-Bus reply
     _clearLabels() {
